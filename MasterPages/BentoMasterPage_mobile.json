@@ -389,6 +389,7 @@
         "$type": "Forguncy.CustomMenu.ForguncyIconMenuCellType, Forguncy.CustomMenu",
         "Items": [
           {
+            "Value": "ホーム",
             "Text": "ホーム",
             "IconPath": "Mobile/381_home_3.svg",
             "SelectedIconColor": "Background 1",
@@ -408,6 +409,7 @@
             ]
           },
           {
+            "Value": "予約注文",
             "Text": "予約注文",
             "IconPath": "Application/122_send_2.svg",
             "SelectedIconColor": "Background 1",
@@ -425,6 +427,7 @@
             ]
           },
           {
+            "Value": "注文履歴",
             "Text": "注文履歴",
             "IconPath": "Application/045_search_6.svg",
             "SelectedIconColor": "Background 1",
@@ -442,6 +445,7 @@
             ]
           },
           {
+            "Value": "ヘルプ",
             "Text": "ヘルプ",
             "IconPath": "Application/125_help_2.svg",
             "SelectedIconColor": "Background 1",
@@ -630,4 +634,4 @@
       "BoxShadowString": "0 2 0 5 #4C000000"
     }
   ]
-}//qMtL6jDxgp7Sxs4EWJ/l6N0Ge2GEUDos9nt9m7CzEwHq+2XcvIjznCfsg4fLsFRNPn164ZNOizttvcbThLJPxcC5/1KciMjG5gi7Y+4iu8+7U3NeMO5ZCZyu4AWdvJjL8iUpneuSWFTEebNyNk1kF+CV8KMT51f+JQ9vD+aiTKBXUrqQZTre+s95oplNk+yoE640S5bEqHT0YAP7rScfBE/YbL5En7DtwwcdSjD8lypCmWWFM3hm4mjvpPlFGI0v7wPDYTGiI6RETZjyF8+PHApKsF8FwYyEyzEMP62EC+y/9+t/Hn6tuQNmToLuuImaG7WcQp/2dRbV+UzKYJGB8LTb5K4Ojbwn4OZJ/2LhgBsVpW1JCdJK6YARRDq5e1TIjnSznkTgk6glC25MH6m8aiO/4D/4T5LkxfFZuDnhW5oVQyRfuxb4HLqe8VZCNK9RDfS7hjvS8jlXKLdhJwFm9xKnj7Jf0t99MLH45gP2JhEpMzbnM4jpoJVMH6KaUDD2QOBP35UPrOXeCdwxJRXvdgHaaNWpn/GHcIMLjsjostrNqf5MjRiQt8H/y/gaAKEpzI1xmHkSRmWc+ihRTJIR/Wcv0hokAOozItUs5gdzZtWgPRX+dTfhDrEzLJmckwhGRIjtora+ACJJ5CjHwevGey5JyVhjgL7LjGn2r5qEKNUYqpyXNnV/lxE2snVj3p3JfX/5wlPaO1geoUJL2HZe94oXP3f+cRU0zaUXc2XFoB/jFEnGL/jkM5RZ7Us8dmX345P4jsGKIwQnKfKKXlDJuNONt7bPOidepraMjXghAAIU/iMumllxl5Dzt1BhI/AfKcth6fgktFNjJ8Av/4j/brRV32Rvwxhdd7QPalWJL417VMjD+R/Y4S3lM780zlu+mHdLyse0AqlFghFVkQ5/1A==|920
+}///GhT9WTbN4NyGy8/Mef0twcK4CTQ46wGcRFjw8LppmVVOcx2w7Plelyi3S3D/yIpT1IEedfUxYYwiLZJ/Xh77cXpvuTD5Fu06tfudj+qopRxG8fTZU/rqqAiyOw0GWsTv1DnTNdAKC4Cn1vz8qadm06LTmS4Iek1o+pvqNmB67WGjrED6b6Gaw685gfwFU03enaOW6ZaBHrqhQhcZCBtz/lEnXVv5/ZSJp2g9g+nxUhQWF0ZgsopVnT8/Tiue4ym/rIlaWYuQCTdcZRxVen9uysGrOrkZAGP02+zQcWEfHhuM+BriNLhKKvmfIvfF6PkzO0mAF24aSnfjBiBNXLgEYhuUwZVV9YF8tL/hb4TOb2qU2ta1oIqvB5551JFGUZcVnf+KyWh/YqIPF1NMLf3ZzoiCm1LvYVtOquWLMNZgh5hxzbl6nBBfcEs3GHWOTkThNOh7FXfnPqzFBWm8jiWPyDD6++QDlK5zEZKM2v/qxASI7RrvVpk26Y16N21AIppYugv6oyIh764wMVDD07z3bv7QqlOxb0+6DCo/6Eb7kk8nE0uz53FLClGJQrhK/keb9RVT08gha3MOQET6r80iPNDGyYZX3CNA1S4BHsIdnC+u0tO60wORPdDNlyc2yZ9F09MEtocZ+fpw6KwCWNWzIEFmXL9DvdEJR5DIaCL/kODP9dbzKq3HDnmjcWH+K/xQ2R0B/+a844/FvXzDi+tGNzsa7txpzibY9vkjvnuinmWbby5ac5WSIBmyUvIe8H8Lb5mx/KylnbTXcfE6E/fqoaeOqR/rl4QeuV42QAp7hzT90InzKolBU7JmZ9iM3Z6pPRxhfpSJByUzuYLfYiTQ2jd27biUzbuLYmORzCl1rJ8K9qr29D/7qA1N71snA2iiBomdBxjIrPBPTxOFMfH6Q==|920

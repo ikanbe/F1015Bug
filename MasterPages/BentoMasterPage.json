@@ -83,6 +83,7 @@
         "TemplateKey": "_RS_Dark_ThemeStyle2",
         "Items": [
           {
+            "Value": "予約注文",
             "Text": "予約注文",
             "IconPath": "Application/122_send_2.svg",
             "SelectedIconColor": "Background 1",
@@ -101,6 +102,7 @@
             ]
           },
           {
+            "Value": "購入履歴",
             "Text": "購入履歴",
             "IconPath": "Application/045_search_6.svg",
             "SelectedIconColor": "Background 1",
@@ -117,6 +119,7 @@
             ]
           },
           {
+            "Value": "管理者メニュー",
             "Text": "管理者メニュー",
             "SelectedIconColor": "Background 1",
             "SelectedIconColorUseItemColor": true,
@@ -474,4 +477,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//GSZH6GSj3Y6YGr/kNoO6IkAGE6fpOPwZ6OsSOUVy6MrOFixw808Vypkz0u0i+nkljo3wCv+0TD35ix6hInbLZ3sFlZW7bsxNRLgfgWqYT+Lmv88wMP/gItYcSUqc3KBoHHkVu0Z07TdWlIvFBg00o5byf5KWN+Z4qU+OVV0d05P3l1KO2ewDXfXY3npXuF2m5pI6akYwMkZr9YjQAEQ1ke/+f5xCWG/Cs117fpqStcLrflxAGTCM14zzGEp6/i4zS0eI4VGfmQZiR1/QULj0gwsxvQWzEUZbsy+TGe22tIGdn9RcCs3yyb8HA2l9J0LAJ2r2CMdIKHaeTQvSKnxgtnx7VGABSsN5jmr+uWnFIkgs8xyMeO1OyFuwJ+vSJ95BcaGQIjDNFDNEBLkPlaN3QZ8YqhEKtrnCAhHbOCdXJEP1gZfBpwEqmT9QY7fx7BEcvhvkktwS62AERy7Seg8HETkomsL2TqVUra3/3O2S2brv78U9E1oG4tWuvpBYeIF4LJdh+bCXRou5uL2zY2hGDE0S+uaH4e/+nHah7ZZis7Le7l5of+Iu7Yquv7FLkGUA2HwF6TfwcQrH0XkT3Umvoe0cQxFEKe6HsscryGFw5Xcd/jNgV3DKuvLo+ahC5IPWPsvR7v+6+RPGA5pXSkZh63Qzrd23cht3brK8BRBj1/2LoWmvfwDmQ+qOpDwnBBYG7qcGRvoKuK/p7h/MA0v6ED0FD0XAMDjXYSAFYIgcObvi/xTP0qOeCc3Jk2O6SXbfKNq952ksyy928DRcOSMYmEwskmEpoyh8iGDxiM5lu5+eA7cAffFpwrSSA2bKgc3EKYMFh8/65W0Nm0xJrRgKf8nBLJXHxmy6C+ZI50OpLri08E1TWOjsqVaGrO7nCgRvD5WfN+jhuJ4FaQht4CQgEw==|920
+}//h0Mjzy+QwPXe7K3w8lEC1W16h3IaVolSXYpYFWJQfyAIKDWGIIqCTST4pHVMmFfBK4p2i7UUf80x230VJQOm09wEZZdt29mj0I2MtZW9qNLPGLRbUuApO7U89qR73CDhkpoKkZilGRpfAv5Bz6LJE5Tn4zdugi7ClB4YcP7y3GmOsPTHv1+q+a9G10hTiL4vDgqexVXiCDW6gyifKRf5D+KSb3Yz4jwLyrgyaUzswnxZ7VnWz4PFsUwByhxR+K17dU/rdl13PYz3t4X9NCIPPgHd8PFr/MKgE/1xkBQLq6m4qz7Jy1VZVXKNmNfgIFe24jCD5QGbVD/SQ4tct//xSJO4Tn9QDxXDH+05azWErpsG6TfOvNeY7Uxad3XwRv+RaGoHPPB8WkIuNLHI42teUP5Oj+Fh9AGUZrRcGM/Yq/YXB638E87xAhaYkU3oYI7xT7oKAogQCbm3gDUpMRf4QGWnIUWdeCDbnceMsrUEUMr/Yc4n3xFFEt2pLQ9OUFoszvv1FERY/35l5e9kquYswwOO/78oVMaWri3v32u6Rivw+fYCnAuLtJ/hMr5s8oq0aXtx7r+7dH5Ibq18LGayBfC4MMnFsQlBKkXg4/ZW3VDn7bhnAv+Z65mmfccob4PFSWU0aoQDseovr1zwkzJpc9U2Xtp60xsz4JakhaMEDsan4PJNbjFTnBgyWto3le7q73WOluZ2Ek9l3uDYUzzaUR9rigAjFpBEmI+kYEghayzPmQGSp0eZ4zd7+SWM87ECFHlukrOD/MuSkXVhfLytyJOPmKFCvRYyQnqUEazzXoGgkhLrWhQXCUITHomSN6nz5rtknJBFAnMxkhJrmyL3OB2zczJNGR8OCsa4gBnj5bnyiBYoN2K2ME/4FEOshIMEvHju6k0php50E0FTt++plg==|920
