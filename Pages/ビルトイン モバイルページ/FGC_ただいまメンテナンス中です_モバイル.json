@@ -1,0 +1,167 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 31
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 19
+  },
+  "Values": {
+    "13,2": "ただいまメンテナンス中です",
+    "16,2": "ご利用の皆様にはご不便おかけし、申し訳ございません。メンテナンス終了までしばらくお待ちください。"
+  },
+  "AttachInfos": {
+    "3,4": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_built-in-page-maintained.png"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "Foreground": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 2,
+        "Foreground": 3,
+        "Formatter": 4,
+        "HorizontalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 6,
+        "Formatter": 7,
+        "VerticalAlignment": 8,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "#FF000000",
+        "Bold",
+        "Text 1 25",
+        "General",
+        "Center",
+        "#FF7F7F7F",
+        "[AUTO]General",
+        "Top"
+      ]
+    },
+    "CellStyles": {
+      "3,4": 0,
+      "13,2": 1,
+      "16,2": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": 13.333333015441895,
+      "Foreground": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "3,4,9,11",
+    "13,2,2,15",
+    "16,2,6,15"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "ただいまメンテナンス中です",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//mMgFdw/T6AaX/ZL5vunOJGreAv7pKEva0yEuNOqHrwQEmebygSksGn6PqCoWer7GJEWBruqKuPFsCw3jYErrSZ1Du6LP8O3uTIvtAxh/RFCPb8oOo4e2n98b1S/nzHUhFUjrx4DR2z2ntVvK7AR+rIW9Sa6/YmiS7W5IcIIbC1q4OJKLHJXFNdbUnaGuQbIqqTzIMimQVIWqxBMw6UDLE3uzbkg0OTJj4Sd6cG2p4r5h0SgvtjZ/CCTV0sY9jbPuWFrFcc2dsy7jYrl0UYwcws3Lax6A4+g+BRbjtMYEHALb06BEwaoEQcYADi1hXrRGSeob9YsHXkP3aBd17PflCqXn8WaqXDPmQR/ocTCp9Dfx6hdbXMD6zJ+uirZBrleE3pFH+bw+16FqhrjfO21BUk1nveNKNE3DPJjStZJSvC4lCiXFyJH/xfkYXfMg7tVqzIHST4Uptdd3uw2G0EcD0gz/gGLJ/D0zqkppOdm73GDp70Fg87kFgHvseUoyjjMShnw6Lx5lVqNsguDXhCBoCtIDZxjiBKyeMo32qK9r2WNhJ+GQDPKUt6p9pLHNTn+VsPhc4uWC+5CW/QeRk6Hm0G0p7nL8DObKxBOcCQSWsqSilAihwMmAQqrnvRq0Dv0997Li5StGRZferl6lUx7+bsV0jAl7t9q6kKg+at4TFT89UBTO2CccjCdh4CQpZXbCjA8V03F48gBbhdTdOL/wnfY+OJrnXjsrr8sFIf2ZNP62vBn2vdKMYcwwv0+B67sGvKEW+IrX94oET2lHqfffna83cBz2fb0AuLfs7bJZsu1Yqy1mGobU6tpReF7vT4TjdfqECHrMgD5gkCuiNcQCv7YYRhqH6qxpLcR+MPT+VxIaf/VeBwxs0ozYF6WjJo/VycK4IzU2QuBBfRw+qt3n7w==|920

@@ -1,0 +1,203 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 31
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 19
+  },
+  "Values": {
+    "0,0": "  ",
+    "6,3": "認証アプリの構成",
+    "9,3": "モバイル端末の認証アプリでアカウントを追加し、下のQRコードをスキャンしてください。",
+    "22,3": "次へ"
+  },
+  "AttachInfos": {
+    "12,5": {
+      "CellType": {
+        "$type": "Forguncy.BarcodeCellType, ServerDesignerCommon",
+        "CodeType": "QRCode",
+        "ForguncyAttribute": "MFA_Secret_Barcode"
+      }
+    },
+    "22,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "次へ",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Main1",
+        "ForguncyAttribute": "MFA_Secret_Next_Button"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 5,
+        "VerticalAlignment": 6,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 16.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 25",
+        "Left",
+        "Bottom",
+        "Text 1 50",
+        "Top"
+      ]
+    },
+    "CellStyles": {
+      "6,3": 0,
+      "9,3": 1,
+      "12,5": 2,
+      "22,3": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "6,3,2,13",
+    "9,3,3,13",
+    "12,5,9,9",
+    "22,3,2,13"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "認証アプリの構成",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "2dd38db5-c88e-4291-9f40-6af565e8021c",
+      "ForguncyPictureName": "PCLoginBackground",
+      "ForguncyPictureSourceType": 2,
+      "StyleInfo": {
+        "Fill": null
+      },
+      "IsAutomaticFill": false,
+      "Size": "380,620"
+    },
+    {
+      "Name": "d68ea7b4-d5c7-419c-a6b9-e2ae87e2f9c0",
+      "StyleInfo": {
+        "CornerRadius": 20.0,
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "20,80",
+      "Size": "340,440"
+    }
+  ]
+}//R+bQ2HUSHRAx1RzXxUS91EuQYFCz4CDltU4JnbND8Z95/TiXSmVMI2i7NLLrAZ14C7dVgsww+kOeTgVC/E+S9ddPKFIqIt4x04odiWAlAjcVqxwR07/vVULGllwVz5of58doKlzNEkv8gI1XDDIR3/M3GsaFaCfV7cGntQ29VNsyKckd+1YfzskiiMpk1qP5XrOXLvch2ns5/gfbxFLFnWnkDpNdTH2SMdyBy53cPCkKhVpJ1Uydj+0WQrIvy+osZHDLaU1omE0/GAiYiWJuejbF8vvTS+JYNubLFeHgE+uLwWgObDer6mW9o6rHwauKpHV7n7cqs43gzWbLZnMd/i7ReXqfl99jYqqOtPrMfStFOTMEjUt1PBPgopuFXMCSpzEtJfbTmLJSk9F1CYYkv3sYd9Kn6N43Bq1Sn8JuxPxaaOAc20wat57CtdocXFQM+aJkuBaVgj3jQZRAZBy1mRUoAgaqwAEhg4aF/JfuXcvBLeH63X+yfsVODbofXLz8SJ20+BSxXTofKwoeTOSC9iM/PoU8PeS70t5q/BnC5FF9FLFiMTYKibBu6Ld0kbV5TDbfnh8a+2oU8pYtnkwHW72y+ZQ1OJNHvEVCOTP9rpXy8mGfMeoxKLFcAkxAjNuOsf4hPO1ySRyVJr/vxqs+P3K5s34oG4xHTdJvwG9XqLvvmiXd3ExKnXTmfr6Lh5fWzZzc+z/g5zS/Aif24mKBwOjwIG+8OquyZCrmCKcN+LsyVaqCgfJO18NnrFpo2ecUshcfXozumbEiZ1gl1JWAOJANhS8iIWvABbyfWAabvsdos3vt7X/gmUt7aadMhqScbU3EkBhVQ78ctdYKPQNtkWRyFTVFzqkTUQ4u7OdMfuGPJY/Q5D7iqsCP02fWV7GR+wRjtvjDZhe3+y1cx/McQg==|920

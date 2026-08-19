@@ -1,0 +1,692 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 28.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 31.0
+        }
+      }
+    },
+    "Count": 24
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      }
+    },
+    "Count": 18
+  },
+  "Values": {
+    "1,8": "～",
+    "4,1": "日付",
+    "4,7": "弁当",
+    "5,13": "削除"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Normal_LightTheme_Normal1"
+      }
+    },
+    "1,10": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Normal_LightTheme_Normal1"
+      }
+    },
+    "4,1": {
+      "ListViewInfo": {
+        "Name": "リストビュー1",
+        "TableName": "BentoOrder",
+        "RowIndex": 4,
+        "ColumnIndex": 1,
+        "RowCount": 19,
+        "ColumnCount": 16,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+          "SubConditions": [
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "CompareType": 3,
+              "ColumnBindingInfo": {
+                "TableName": "BentoOrder",
+                "ColumnName": "OrderDate",
+                "GUID": "52382528-833f-4d7f-a319-f59375eb1ef6"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=MyBentoList_mobile!B2"
+              }
+            },
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "CompareType": 5,
+              "ColumnBindingInfo": {
+                "TableName": "BentoOrder",
+                "ColumnName": "OrderDate",
+                "GUID": "718f57c1-a21d-4f19-9eb3-fc1f4a3f5c98"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=MyBentoList_mobile!K2"
+              }
+            },
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "BentoOrder",
+                "ColumnName": "OrderPerson",
+                "GUID": "c78a705c-cee2-49d8-9176-ebe83d4caca6"
+              },
+              "Value": "%CurrentUser.UserName%"
+            }
+          ]
+        },
+        "OrderByCondition": {
+          "OrderByColumns": [
+            {
+              "ColumnBindingInfo": {
+                "TableName": "BentoOrder",
+                "ColumnName": "OrderDate",
+                "GUID": "d06e38fd-4b22-4389-ad32-82dfe9bb9a76"
+              },
+              "Order": 1
+            }
+          ]
+        },
+        "TopCondition": {
+          "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
+          "TopCount": 12
+        },
+        "TableLoadOnDemandInfo": {
+          "IsEnabled": true,
+          "DemandedRowCount": 12
+        },
+        "ListViewStyleName": "_RS_Light9",
+        "ShowColumnHeaderInDesigner": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 1,
+        "ShowGridLine": true
+      }
+    },
+    "5,1": {
+      "BindingInfo": {
+        "TableName": "BentoOrder",
+        "ColumnName": "OrderDate",
+        "GUID": "c5dd089c-5448-45f2-86fb-cca89d2935cf"
+      }
+    },
+    "5,7": {
+      "BindingInfo": {
+        "TableName": "BentoOrder",
+        "ColumnName": "BentoID",
+        "GUID": "071426f9-cc2d-412e-8648-69cf1e3a1d2b",
+        "RelationBinding": {
+          "RelatedTable": "Bento",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "BentoName"
+        }
+      }
+    },
+    "5,13": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "BentoOrder",
+            "UpdateType": "delete",
+            "ShowConfirm": true,
+            "ConfirmText": "本当に削除してもよろしいですか？",
+            "CheckDataValidation": false
+          }
+        ],
+        "Text": "削除",
+        "TemplateKey": "スタイル2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "HorizontalAlignment": 0
+      },
+      {
+        "FontFamily": 1
+      },
+      {
+        "Foreground": 2,
+        "Formatter": 3
+      },
+      {
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Formatter": 3,
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "Formatter": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "Formatter": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 16.0,
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 16.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "Background": null,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "Foreground": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 16.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Center",
+        "Body",
+        "#FF002060",
+        "[AUTO]General",
+        "#FFA9A9A9",
+        "yyyy/m/d",
+        "#FF585858"
+      ],
+      "Borders": [
+        {
+          "Color": 4
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,13": 0,
+      "0,17": 0,
+      "1,8": 1,
+      "1,10": 2,
+      "3,1": 3,
+      "3,13": 0,
+      "3,14": 0,
+      "3,15": 0,
+      "3,16": 0,
+      "3,17": 0,
+      "4,0": 0,
+      "4,1": 4,
+      "4,2": 5,
+      "4,3": 5,
+      "4,4": 5,
+      "4,5": 5,
+      "4,6": 5,
+      "4,7": 6,
+      "4,8": 7,
+      "4,9": 7,
+      "4,10": 7,
+      "4,11": 7,
+      "4,12": 7,
+      "4,13": 5,
+      "4,14": 5,
+      "4,15": 5,
+      "4,16": 5,
+      "5,0": 0,
+      "5,1": 8,
+      "5,2": 9,
+      "5,3": 9,
+      "5,4": 9,
+      "5,5": 9,
+      "5,6": 9,
+      "5,13": 10,
+      "5,14": 11,
+      "5,15": 11,
+      "6,0": 0,
+      "6,1": 12,
+      "6,2": 0,
+      "6,3": 0,
+      "6,4": 0,
+      "6,5": 0,
+      "6,6": 0,
+      "6,7": 0,
+      "6,8": 0,
+      "6,9": 0,
+      "6,10": 0,
+      "6,11": 0,
+      "6,12": 0,
+      "6,13": 0,
+      "6,14": 0,
+      "6,15": 0,
+      "6,16": 13,
+      "7,0": 0,
+      "7,1": 12,
+      "7,2": 0,
+      "7,3": 0,
+      "7,4": 0,
+      "7,5": 0,
+      "7,6": 0,
+      "7,7": 0,
+      "7,8": 0,
+      "7,9": 0,
+      "7,10": 0,
+      "7,11": 0,
+      "7,12": 0,
+      "7,13": 0,
+      "7,14": 0,
+      "7,15": 0,
+      "7,16": 13,
+      "8,0": 14,
+      "8,1": 12,
+      "8,2": 0,
+      "8,3": 0,
+      "8,4": 0,
+      "8,5": 0,
+      "8,6": 0,
+      "8,7": 0,
+      "8,8": 0,
+      "8,9": 0,
+      "8,10": 0,
+      "8,11": 0,
+      "8,12": 0,
+      "8,13": 0,
+      "8,14": 0,
+      "8,15": 0,
+      "8,16": 13,
+      "9,0": 14,
+      "9,1": 12,
+      "9,2": 0,
+      "9,3": 0,
+      "9,4": 0,
+      "9,5": 0,
+      "9,6": 0,
+      "9,7": 0,
+      "9,8": 0,
+      "9,9": 0,
+      "9,10": 0,
+      "9,11": 0,
+      "9,12": 0,
+      "9,13": 0,
+      "9,14": 0,
+      "9,15": 0,
+      "9,16": 13,
+      "10,0": 0,
+      "10,1": 12,
+      "10,2": 0,
+      "10,3": 0,
+      "10,4": 0,
+      "10,5": 0,
+      "10,6": 0,
+      "10,7": 0,
+      "10,8": 0,
+      "10,9": 0,
+      "10,10": 0,
+      "10,11": 0,
+      "10,12": 0,
+      "10,13": 0,
+      "10,14": 0,
+      "10,15": 0,
+      "10,16": 13,
+      "11,0": 0,
+      "11,1": 12,
+      "11,2": 0,
+      "11,3": 0,
+      "11,4": 0,
+      "11,5": 0,
+      "11,6": 0,
+      "11,7": 0,
+      "11,8": 0,
+      "11,9": 0,
+      "11,10": 0,
+      "11,11": 0,
+      "11,12": 0,
+      "11,13": 0,
+      "11,14": 0,
+      "11,15": 0,
+      "11,16": 13,
+      "12,0": 0,
+      "12,1": 12,
+      "12,2": 0,
+      "12,3": 0,
+      "12,4": 0,
+      "12,5": 0,
+      "12,6": 0,
+      "12,7": 0,
+      "12,8": 0,
+      "12,9": 0,
+      "12,10": 0,
+      "12,11": 0,
+      "12,12": 0,
+      "12,13": 0,
+      "12,14": 0,
+      "12,15": 0,
+      "12,16": 13,
+      "13,0": 0,
+      "13,1": 12,
+      "13,2": 0,
+      "13,3": 0,
+      "13,4": 0,
+      "13,5": 0,
+      "13,6": 0,
+      "13,7": 0,
+      "13,8": 0,
+      "13,9": 0,
+      "13,10": 0,
+      "13,11": 0,
+      "13,12": 0,
+      "13,13": 0,
+      "13,14": 0,
+      "13,15": 0,
+      "13,16": 13,
+      "14,0": 0,
+      "14,1": 12,
+      "14,2": 0,
+      "14,3": 0,
+      "14,4": 0,
+      "14,5": 0,
+      "14,6": 0,
+      "14,7": 0,
+      "14,8": 0,
+      "14,9": 0,
+      "14,10": 0,
+      "14,11": 0,
+      "14,12": 0,
+      "14,13": 0,
+      "14,14": 0,
+      "14,15": 0,
+      "14,16": 13,
+      "15,0": 0,
+      "15,1": 12,
+      "15,2": 0,
+      "15,3": 0,
+      "15,4": 0,
+      "15,5": 0,
+      "15,6": 0,
+      "15,7": 0,
+      "15,8": 0,
+      "15,9": 0,
+      "15,10": 0,
+      "15,11": 0,
+      "15,12": 0,
+      "15,13": 0,
+      "15,14": 0,
+      "15,15": 0,
+      "15,16": 13,
+      "16,0": 0,
+      "16,1": 12,
+      "16,2": 0,
+      "16,3": 0,
+      "16,4": 0,
+      "16,5": 0,
+      "16,6": 0,
+      "16,7": 0,
+      "16,8": 0,
+      "16,9": 0,
+      "16,10": 0,
+      "16,11": 0,
+      "16,12": 0,
+      "16,13": 0,
+      "16,14": 0,
+      "16,15": 0,
+      "16,16": 13,
+      "17,1": 12,
+      "17,2": 0,
+      "17,3": 0,
+      "17,4": 0,
+      "17,5": 0,
+      "17,6": 0,
+      "17,7": 0,
+      "17,8": 0,
+      "17,9": 0,
+      "17,10": 0,
+      "17,11": 0,
+      "17,12": 0,
+      "17,13": 0,
+      "17,14": 0,
+      "17,15": 0,
+      "17,16": 13,
+      "18,0": 0,
+      "18,1": 12,
+      "18,16": 13,
+      "19,0": 0,
+      "19,1": 12,
+      "19,16": 13,
+      "20,0": 0,
+      "20,1": 12,
+      "20,2": 0,
+      "20,3": 0,
+      "20,4": 0,
+      "20,5": 0,
+      "20,6": 0,
+      "20,7": 0,
+      "20,8": 0,
+      "20,9": 0,
+      "20,10": 0,
+      "20,11": 0,
+      "20,12": 0,
+      "20,13": 0,
+      "20,14": 0,
+      "20,15": 0,
+      "20,16": 13,
+      "21,0": 0,
+      "21,1": 12,
+      "21,2": 0,
+      "21,3": 0,
+      "21,4": 0,
+      "21,5": 0,
+      "21,6": 0,
+      "21,7": 0,
+      "21,8": 0,
+      "21,9": 0,
+      "21,10": 0,
+      "21,11": 0,
+      "21,12": 0,
+      "21,13": 0,
+      "21,14": 0,
+      "21,15": 0,
+      "21,16": 13,
+      "22,0": 0,
+      "22,1": 15,
+      "22,2": 16,
+      "22,3": 16,
+      "22,4": 16,
+      "22,5": 16,
+      "22,6": 16,
+      "22,7": 16,
+      "22,8": 16,
+      "22,9": 16,
+      "22,10": 16,
+      "22,11": 16,
+      "22,12": 16,
+      "22,13": 16,
+      "22,14": 16,
+      "22,15": 16,
+      "22,16": 17,
+      "23,0": 0,
+      "23,1": 18,
+      "23,2": 18,
+      "23,3": 18,
+      "23,4": 18,
+      "23,5": 18,
+      "23,6": 18,
+      "23,7": 18,
+      "23,8": 18,
+      "23,9": 18,
+      "23,10": 18,
+      "23,11": 18,
+      "23,12": 18,
+      "23,13": 18,
+      "23,14": 18,
+      "23,15": 18,
+      "23,16": 0,
+      "23,17": 0
+    },
+    "RowStyles": {
+      "3": 19,
+      "4": 19,
+      "5": 19,
+      "6": 19,
+      "7": 19,
+      "8": 19,
+      "9": 19,
+      "10": 19,
+      "11": 19,
+      "12": 19,
+      "13": 19,
+      "14": 19,
+      "15": 19,
+      "16": 19,
+      "17": 19,
+      "18": 19,
+      "19": 19,
+      "20": 19,
+      "21": 19,
+      "22": 19,
+      "23": 19
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "5,1,1,6",
+    "5,7,1,6",
+    "1,10,2,7",
+    "1,1,2,7",
+    "1,8,2,2",
+    "5,13,1,3",
+    "6,1,17,16",
+    "4,1,1,6",
+    "4,7,1,6",
+    "4,13,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "BentoMasterPage_mobile",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser",
+            "Administrator",
+            "soumu"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//uXF8risESY6IMBlP4sfvhAAlEDLKRsJIgaZ6omJUtVIIxPEBj+A0ieJb+ym4ZV6h0at7V4Hbo+g63ChAfjwI3PwL/zQua7x/X4o7VVxHsJIMo3Ao9GcQCji9g9WHWmE3gJxg99+Z+YRItyrOno/65iXbxPWc3DMteWCiOhZUvhcOlk2MIzrPpyQcbnEMZHcPJQ7n3nLVdw/6Sntd+pvVFefI3Tj95RWvP/Tn0C2peermZDdTqKqxyP+MkTweUO9ohOpycPIe9qm+pg9qD11dF75PBbNqk7ZpDoifcxCszKQRF0BvxjnX8bQM8USIvvq+dPX5PttgikereIUEpDy2Tx/kyh/OJh4jJOBkAB3jCLxdMQABZRU77znv+DF7LfgPaJs9YyVFCSFfhtms+JWAYFrA9vdbppxhPvmmoHzgk11Arlc5guHKw4rgfn9U3d7saQpzwz+jN7/KqQCWzjVPp8Qsl94fbEhj4g52DAM67rvEFAnCH4Qvp0fmBYOFrjWHBrcwrf+YeJLcVh7IxOBVFRBPKj6o51xIlwQHGV5f3mplhKzKVNEIL/wQGDwd2ZK8kNB46yH9GcVKO79ERzNmbSNWks/sV4fq6xNlZ/7miqMDMN6DUNHE722ocVnIzsfmJsctztGNmYBrStFI0p+l3ffC++03xebD5WpNVN/Zq5irl+Gt28Eia9hkSRQaeqejEaRRvGhSiFRjdFkWrpuViu04wcUicoBgdfgp/Jm7tWEWgBO9zU6KmvrObQq9Z1uwWbpNsNJL3Dxh/KMfBit1XzFpV3cqQUYEbtmJ24GLu2RNrShVXUAS74nLv+89XC1eBMlGJVzcWtg8ksgj1XSO1VyOMOl6grtpZKq2B/4CQnwXh3UtaBYqsBYszXHXxKfKtQE+gEm9PyvAoD+2bzY+uA==|920

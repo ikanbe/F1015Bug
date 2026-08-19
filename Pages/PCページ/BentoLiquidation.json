@@ -1,0 +1,703 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 27.0
+        }
+      }
+    },
+    "Count": 25,
+    "DefaultSize": 24.0
+  },
+  "Cols": {
+    "Count": 29,
+    "DefaultSize": 26.0
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "Items": [
+          {
+            "Value": "2016",
+            "DisplayValue": "2016年"
+          },
+          {
+            "Value": "2017",
+            "DisplayValue": "2017年"
+          },
+          {
+            "Value": "2018",
+            "DisplayValue": "2018年"
+          },
+          {
+            "Value": "2019",
+            "DisplayValue": "2019年"
+          },
+          {
+            "Value": "2020",
+            "DisplayValue": "2020年"
+          },
+          {
+            "Value": "2021",
+            "DisplayValue": "2021年"
+          }
+        ],
+        "CellDefaultValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=YEAR(NOW())"
+        }
+      }
+    },
+    "1,8": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "Items": [
+          {
+            "Value": "1",
+            "DisplayValue": "１月"
+          },
+          {
+            "Value": "2",
+            "DisplayValue": "２月"
+          },
+          {
+            "Value": "3",
+            "DisplayValue": "３月"
+          },
+          {
+            "Value": "4",
+            "DisplayValue": "４月"
+          },
+          {
+            "Value": "5",
+            "DisplayValue": "５月"
+          },
+          {
+            "Value": "6",
+            "DisplayValue": "６月"
+          },
+          {
+            "Value": "7",
+            "DisplayValue": "７月"
+          },
+          {
+            "Value": "8",
+            "DisplayValue": "８月"
+          },
+          {
+            "Value": "9",
+            "DisplayValue": "９月"
+          },
+          {
+            "Value": "10",
+            "DisplayValue": "１０月"
+          },
+          {
+            "Value": "11",
+            "DisplayValue": "１１月"
+          },
+          {
+            "Value": "12",
+            "DisplayValue": "１２月"
+          }
+        ],
+        "CellDefaultValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=MONTH(NOW())"
+        }
+      }
+    },
+    "3,1": {
+      "ListViewInfo": {
+        "Name": "リストビュー1",
+        "TableName": "BentoOrderSum",
+        "RowIndex": 3,
+        "ColumnIndex": 1,
+        "RowCount": 20,
+        "ColumnCount": 15,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+          "SubConditions": [
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "BentoOrderSum",
+                "ColumnName": "OrderYear",
+                "GUID": "58d25438-59dd-4546-9cde-1fc5c3d56bd1"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=BentoLiquidation!B2"
+              }
+            },
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "BentoOrderSum",
+                "ColumnName": "OrderMonth",
+                "GUID": "b678a6f1-9b36-4be1-9966-79593b531d9f"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=BentoLiquidation!I2"
+              }
+            }
+          ]
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Light9",
+        "ShowColumnHeaderInDesigner": true,
+        "ColumnOperation": 1,
+        "ShowGridLine": true
+      }
+    },
+    "4,1": {
+      "BindingInfo": {
+        "TableName": "BentoOrderSum",
+        "ColumnName": "OrderPerson",
+        "GUID": "4ed36aa6-7071-4a73-a3ef-a1b014355eb2",
+        "RelationBinding": {
+          "RelatedTable": "ユーザー情報ビュー",
+          "RelatedColumn": "ユーザー名",
+          "DisplayColumn": "氏名"
+        }
+      }
+    },
+    "4,9": {
+      "BindingInfo": {
+        "TableName": "BentoOrderSum",
+        "ColumnName": "金額",
+        "GUID": "5f937c69-d307-4362-a14e-f95ce5e642c6"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderBottom": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "HorizontalAlignment": 0,
+        "BorderTop": 0,
+        "BorderLeft": 1
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 1
+      },
+      {
+        "HorizontalAlignment": 0,
+        "BorderBottom": 1,
+        "BorderTop": 0,
+        "BorderLeft": 1,
+        "BorderRight": 1
+      },
+      {
+        "Background": 3,
+        "HorizontalAlignment": 0,
+        "BorderBottom": 1,
+        "BorderTop": 0,
+        "BorderLeft": 1,
+        "BorderRight": 1
+      },
+      {
+        "HorizontalAlignment": 0,
+        "BorderBottom": 1,
+        "BorderLeft": 1
+      },
+      {
+        "BorderBottom": 1
+      },
+      {
+        "BorderBottom": 1,
+        "BorderRight": 1
+      },
+      {
+        "Formatter": 4,
+        "HorizontalAlignment": 5,
+        "BorderBottom": 1,
+        "BorderTop": 1,
+        "BorderLeft": 1,
+        "BorderRight": 1
+      },
+      {
+        "FontFamily": 6,
+        "BorderBottom": 1,
+        "BorderTop": 1,
+        "BorderLeft": 1,
+        "BorderRight": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Left",
+        "#FFA9A9A9",
+        "#FF92CDDC",
+        "#FFDAEEF3",
+        "¥#,##0_);[Red](¥#,##0)",
+        "Right",
+        "ＭＳ Ｐゴシック",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 1
+        },
+        {
+          "Color": 2
+        }
+      ]
+    },
+    "CellStyles": {
+      "2,1": 0,
+      "2,2": 0,
+      "2,3": 0,
+      "2,4": 0,
+      "2,5": 0,
+      "2,6": 0,
+      "2,7": 1,
+      "2,8": 0,
+      "2,9": 0,
+      "2,10": 0,
+      "2,11": 0,
+      "2,12": 0,
+      "2,13": 0,
+      "2,14": 1,
+      "2,15": 1,
+      "2,16": 1,
+      "2,17": 1,
+      "2,18": 1,
+      "2,19": 1,
+      "2,20": 1,
+      "2,21": 1,
+      "2,22": 1,
+      "2,23": 1,
+      "2,24": 1,
+      "2,25": 1,
+      "2,26": 1,
+      "3,0": 1,
+      "3,1": 2,
+      "3,2": 3,
+      "3,3": 3,
+      "3,4": 3,
+      "3,5": 3,
+      "3,6": 3,
+      "3,7": 3,
+      "3,8": 4,
+      "3,9": 5,
+      "3,10": 6,
+      "3,11": 6,
+      "3,12": 6,
+      "3,13": 6,
+      "3,14": 6,
+      "3,15": 6,
+      "3,27": 1,
+      "4,0": 1,
+      "4,1": 7,
+      "4,2": 8,
+      "4,3": 8,
+      "4,4": 8,
+      "4,5": 8,
+      "4,6": 8,
+      "4,7": 8,
+      "4,8": 9,
+      "4,9": 10,
+      "4,10": 10,
+      "4,11": 10,
+      "4,12": 10,
+      "4,13": 10,
+      "4,14": 10,
+      "4,15": 10,
+      "4,27": 1,
+      "5,0": 1,
+      "5,1": 11,
+      "5,2": 11,
+      "5,3": 11,
+      "5,4": 11,
+      "5,5": 11,
+      "5,6": 11,
+      "5,7": 11,
+      "5,8": 11,
+      "5,9": 11,
+      "5,10": 11,
+      "5,11": 11,
+      "5,12": 11,
+      "5,13": 11,
+      "5,14": 11,
+      "5,15": 11,
+      "5,27": 1,
+      "6,0": 1,
+      "6,1": 11,
+      "6,2": 11,
+      "6,3": 11,
+      "6,4": 11,
+      "6,5": 11,
+      "6,6": 11,
+      "6,7": 11,
+      "6,8": 11,
+      "6,9": 11,
+      "6,10": 11,
+      "6,11": 11,
+      "6,12": 11,
+      "6,13": 11,
+      "6,14": 11,
+      "6,15": 11,
+      "6,27": 1,
+      "7,0": 1,
+      "7,1": 11,
+      "7,2": 11,
+      "7,3": 11,
+      "7,4": 11,
+      "7,5": 11,
+      "7,6": 11,
+      "7,7": 11,
+      "7,8": 11,
+      "7,9": 11,
+      "7,10": 11,
+      "7,11": 11,
+      "7,12": 11,
+      "7,13": 11,
+      "7,14": 11,
+      "7,15": 11,
+      "7,27": 1,
+      "8,0": 1,
+      "8,1": 11,
+      "8,2": 11,
+      "8,3": 11,
+      "8,4": 11,
+      "8,5": 11,
+      "8,6": 11,
+      "8,7": 11,
+      "8,8": 11,
+      "8,9": 11,
+      "8,10": 11,
+      "8,11": 11,
+      "8,12": 11,
+      "8,13": 11,
+      "8,14": 11,
+      "8,15": 11,
+      "8,27": 1,
+      "9,0": 1,
+      "9,1": 11,
+      "9,2": 11,
+      "9,3": 11,
+      "9,4": 11,
+      "9,5": 11,
+      "9,6": 11,
+      "9,7": 11,
+      "9,8": 11,
+      "9,9": 11,
+      "9,10": 11,
+      "9,11": 11,
+      "9,12": 11,
+      "9,13": 11,
+      "9,14": 11,
+      "9,15": 11,
+      "9,27": 1,
+      "10,0": 1,
+      "10,1": 11,
+      "10,2": 11,
+      "10,3": 11,
+      "10,4": 11,
+      "10,5": 11,
+      "10,6": 11,
+      "10,7": 11,
+      "10,8": 11,
+      "10,9": 11,
+      "10,10": 11,
+      "10,11": 11,
+      "10,12": 11,
+      "10,13": 11,
+      "10,14": 11,
+      "10,15": 11,
+      "10,27": 1,
+      "11,0": 1,
+      "11,1": 11,
+      "11,2": 11,
+      "11,3": 11,
+      "11,4": 11,
+      "11,5": 11,
+      "11,6": 11,
+      "11,7": 11,
+      "11,8": 11,
+      "11,9": 11,
+      "11,10": 11,
+      "11,11": 11,
+      "11,12": 11,
+      "11,13": 11,
+      "11,14": 11,
+      "11,15": 11,
+      "11,27": 1,
+      "12,0": 1,
+      "12,1": 11,
+      "12,2": 11,
+      "12,3": 11,
+      "12,4": 11,
+      "12,5": 11,
+      "12,6": 11,
+      "12,7": 11,
+      "12,8": 11,
+      "12,9": 11,
+      "12,10": 11,
+      "12,11": 11,
+      "12,12": 11,
+      "12,13": 11,
+      "12,14": 11,
+      "12,15": 11,
+      "12,27": 1,
+      "13,0": 1,
+      "13,1": 11,
+      "13,2": 11,
+      "13,3": 11,
+      "13,4": 11,
+      "13,5": 11,
+      "13,6": 11,
+      "13,7": 11,
+      "13,8": 11,
+      "13,9": 11,
+      "13,10": 11,
+      "13,11": 11,
+      "13,12": 11,
+      "13,13": 11,
+      "13,14": 11,
+      "13,15": 11,
+      "13,27": 1,
+      "14,0": 1,
+      "14,1": 11,
+      "14,2": 11,
+      "14,3": 11,
+      "14,4": 11,
+      "14,5": 11,
+      "14,6": 11,
+      "14,7": 11,
+      "14,8": 11,
+      "14,9": 11,
+      "14,10": 11,
+      "14,11": 11,
+      "14,12": 11,
+      "14,13": 11,
+      "14,14": 11,
+      "14,15": 11,
+      "14,27": 1,
+      "15,0": 1,
+      "15,1": 11,
+      "15,2": 11,
+      "15,3": 11,
+      "15,4": 11,
+      "15,5": 11,
+      "15,6": 11,
+      "15,7": 11,
+      "15,8": 11,
+      "15,9": 11,
+      "15,10": 11,
+      "15,11": 11,
+      "15,12": 11,
+      "15,13": 11,
+      "15,14": 11,
+      "15,15": 11,
+      "15,27": 1,
+      "16,0": 1,
+      "16,1": 11,
+      "16,2": 11,
+      "16,3": 11,
+      "16,4": 11,
+      "16,5": 11,
+      "16,6": 11,
+      "16,7": 11,
+      "16,8": 11,
+      "16,9": 11,
+      "16,10": 11,
+      "16,11": 11,
+      "16,12": 11,
+      "16,13": 11,
+      "16,14": 11,
+      "16,15": 11,
+      "16,27": 1,
+      "17,0": 1,
+      "17,1": 11,
+      "17,2": 11,
+      "17,3": 11,
+      "17,4": 11,
+      "17,5": 11,
+      "17,6": 11,
+      "17,7": 11,
+      "17,8": 11,
+      "17,9": 11,
+      "17,10": 11,
+      "17,11": 11,
+      "17,12": 11,
+      "17,13": 11,
+      "17,14": 11,
+      "17,15": 11,
+      "17,27": 1,
+      "18,0": 1,
+      "18,1": 11,
+      "18,2": 11,
+      "18,3": 11,
+      "18,4": 11,
+      "18,5": 11,
+      "18,6": 11,
+      "18,7": 11,
+      "18,8": 11,
+      "18,9": 11,
+      "18,10": 11,
+      "18,11": 11,
+      "18,12": 11,
+      "18,13": 11,
+      "18,14": 11,
+      "18,15": 11,
+      "18,27": 1,
+      "19,0": 1,
+      "19,1": 11,
+      "19,2": 11,
+      "19,3": 11,
+      "19,4": 11,
+      "19,5": 11,
+      "19,6": 11,
+      "19,7": 11,
+      "19,8": 11,
+      "19,9": 11,
+      "19,10": 11,
+      "19,11": 11,
+      "19,12": 11,
+      "19,13": 11,
+      "19,14": 11,
+      "19,15": 11,
+      "19,27": 1,
+      "20,0": 1,
+      "20,1": 11,
+      "20,2": 11,
+      "20,3": 11,
+      "20,4": 11,
+      "20,5": 11,
+      "20,6": 11,
+      "20,7": 11,
+      "20,8": 11,
+      "20,9": 11,
+      "20,10": 11,
+      "20,11": 11,
+      "20,12": 11,
+      "20,13": 11,
+      "20,14": 11,
+      "20,15": 11,
+      "20,27": 1,
+      "21,0": 1,
+      "21,1": 11,
+      "21,2": 11,
+      "21,3": 11,
+      "21,4": 11,
+      "21,5": 11,
+      "21,6": 11,
+      "21,7": 11,
+      "21,8": 11,
+      "21,9": 11,
+      "21,10": 11,
+      "21,11": 11,
+      "21,12": 11,
+      "21,13": 11,
+      "21,14": 11,
+      "21,15": 11,
+      "21,27": 1,
+      "22,0": 1,
+      "22,1": 11,
+      "22,2": 11,
+      "22,3": 11,
+      "22,4": 11,
+      "22,5": 11,
+      "22,6": 11,
+      "22,7": 11,
+      "22,8": 11,
+      "22,9": 11,
+      "22,10": 11,
+      "22,11": 11,
+      "22,12": 11,
+      "22,13": 11,
+      "22,14": 11,
+      "22,15": 11,
+      "22,27": 1,
+      "23,1": 1,
+      "23,2": 1,
+      "23,3": 1,
+      "23,4": 1,
+      "23,5": 1,
+      "23,6": 1,
+      "23,7": 1,
+      "23,8": 1,
+      "23,9": 1,
+      "23,10": 1,
+      "23,11": 1,
+      "23,12": 1,
+      "23,13": 1,
+      "23,14": 1,
+      "23,15": 1,
+      "23,16": 1,
+      "23,17": 1,
+      "23,18": 1,
+      "23,19": 1,
+      "23,20": 1,
+      "23,21": 1,
+      "23,22": 1,
+      "23,23": 1,
+      "23,24": 1,
+      "23,25": 1,
+      "23,26": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 7,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,1,6",
+    "1,8,1,6",
+    "4,9,1,7",
+    "5,1,18,15",
+    "4,1,1,8",
+    "3,1,1,8",
+    "3,9,1,7"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "BentoMasterPage",
+    "Title": "管理メニュー：月次清算",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "Administrator",
+            "soumu"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//moN0vGZiP8Aka8U8aj7tyfGPfXeZUzQWJDK7veoV4PKSiuXmqQzo67rzigQY1FNqkut10BLWvCX0X3qq3T5dKsmqdv1kEI6bcuxQrAdfsogfgl/c8ePUlBi53wxO9f3h2JWA51ohoKRn6laRWaIPktvJtFc6bLk5X9NDzvvsjrrgNe+mL6LUklOalp1/K8ARthfENwUt1TY6qYvMm/2HqhQ6MOzng4SCaAAGcoIwcCNCRkEvdgYyEbkmiRHIMOwygyf0u0q+w6MU4PIPbzoD13eDeN5eaxm2x2RUvufW9ihPUDrxDDAHVNFgmSxkHgv3CNaA8po0Rbb8PpmU8/Akp1mErX8xZv9l/asPH6ZVa2qaualGdblEmznQYOe3jjMK70OROxX+QhS0UqtK1jnTEaJCoxLtdwj0zHslgFN8iO6rOTap1g84CET+VcftalGPKDCpVC2q4qBYIeezaTcjp3sAa0N2+3xfLia8+b3GchUxh+2OSoLI8dB+I7oeCza2irO4v1PQo1QlYN63kryAF8qkzzev2SRf6rf73yBPTcMuLaYnG3feCl5NI8qJelT+LLzOGY+kpSHUu23ynvuN9v3jccJBnulUFJYYh29oM0GL0uxFMltbnJr1QLmZ3onsjBmZOyndLgyXZHhxMEjPKsClfSJqqQd4FIp5KoaOAXW9G9Q2Xv7NUfk4WDpF3fQfGVMgOl9p1DK+2993dpnLx/HSanQpz60+UjwF4Yv4yh+V2F35MTukvDyId5NPiL8wN0IPskohxv9kQhk+hV78rFvWu9sbrkms4vrNRO10QkvLv7XOkRNWFK1rGQzAeYKZ3OuakV6zwXAzBaOkQ3wwJ4BDh7y3UUDnrQhhEK1agZkqatALcC660BHwO6l0/3ret9fa2g8SL7c7bkHCF9Jokg==|920

@@ -1,0 +1,96 @@
+{
+  "Rows": {
+    "Count": 44
+  },
+  "Cols": {
+    "Count": 30
+  },
+  "Values": {
+    "1,1": "PCページ",
+    "3,2": "予約注文ページ - MyBentoList",
+    "5,3": "リストビューとExcel数式を活用して、カレンダー形式の画面を構築しています。",
+    "6,3": "※画面上に大量の数式が存在すると、クライアントPCのスペックによっては\r\n　 パフォーマンスに影響を与える可能性があります。\r\n　 本テンプレート程度の量であれば問題ありませんが、本テンプレートを大幅に上回る量の\r\n　 数式を記載する場合は他の構築方法をご検討ください。\r\n　 参考として本テンプレートでは数式で実装する方法とリストビューで実装する方法どちら\r\n　 も用意しています。",
+    "13,2": "予約注文ページ",
+    "14,3": "- NewBentoOrder",
+    "15,3": "- UpdateBentoOrder",
+    "17,3": "予約注文ページからポップアップでページを表示します。",
+    "18,3": "追加更新には「日付」と「弁当ID」の情報が必要です。それぞれ以下のように設定しています。",
+    "19,3": "日付：ポップアップ表示する際に予約注文ページから受け渡すようにしています。",
+    "20,3": "弁当ID：リピーター型セルで選択できるようにし、選択した値を別のセルに保持させています。",
+    "21,3": "　　　　　（利用者には見えないようにセルは非表示にしています。）",
+    "22,3": "　　　　　　初期値はページロード時のコマンドで設定しています。",
+    "24,1": "モバイルページ",
+    "26,2": "ページ全体",
+    "28,3": "モバイルでPCページにアクセスしてしまった場合に、自動でモバイルページに切り替わるように",
+    "29,3": "PCページ各種に対して、「右ペイン」＞「ページ設定」＞「モバイルページ名」を設定しています。",
+    "31,2": "ホームページ - HomePage_mobile",
+    "33,3": "注文情報をすべてODataを利用して表示しています。",
+    "34,3": "ODataを活用すれば、リストビューやデータ連結をしなくても、表示したいデータベースの値を",
+    "35,3": "表示することができます。",
+    "36,3": "※一つのODataの記述につき一つのデータベースへの接続が行われるため、",
+    "37,3": "　 Excel数式同様、大量に記載するとパフォーマンスに影響を与える可能性があります。",
+    "39,2": "予約注文 - BentoOrder_mobile",
+    "41,3": "非表示セルを活用し、ユーザーに見えない位置で二重注文を防ぐように構築しています。"
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "VerticalAlignment": 1,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 3
+      },
+      {
+        "Foreground": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "#FFFF0000",
+        "Top",
+        "Body",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "6,3": 0,
+      "28,3": 1,
+      "29,3": 1,
+      "36,3": 2,
+      "37,3": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "6,3,6,26"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_Anonymous",
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//gknSZPOzz4ZlwllLcnCp6FgRFrYnVsCww+JUC5brWNNJKZ6lJIepJzE6ZdL9HXlI6YsDJvUKxvqILvNOPzpXSeLtjKl1sUrIia5B+5COc9zhF4Wwxg7GZOO44h6bC5rX7V/tforr3CKSVyXrJRAIGuDotn/QQfaSWViZy+LTxI6dJ2QsmMnKisnRhEuw83fJ17D8dWuCjlvibEUjLp+ynmRcqLUhmWYfrs5RRP1Bevwr5DZEvryCvY9xW5XUvQCbKM4FZB44czvGinDXLRufcdptOWCNdeJAgpkR1nwnnqowfPloVoZlGJHCoibCdSsoCjumoThw6m+Etf2hzgtw/2QQ9YX/ahPGg+qYtXIHO4Lo+Tf7Kz3QyQkEW3/QYWfQkQKlVvpe7SpX/o3H9GxwCMPH289dVtrskzTBsX+d9d55R0MtQh/D059kMPk3SYIII3RHTsrOjpqs9E8Q+hOvye+/uIVpolPgduL096eta7jg3PKGhK7fBFwGwT7gYX8wiE2xgmgtcjtbIHUyQA6H+YQl7Z7k37KJJaMTrFk3a9QOnizdKOyBp7zfywaqVV6dQuVHDveRthcSQXNoHF66e5GPiM9KRi94EZ5mqcyCMyJqeUXcU7KRfyXOmYKjduMU4F2vt75LFb1l9ysGhwEfUWSFSX36NpB/IoovrezK+gPHi4YQfKx0HVpFhMTdNH5jj+QDyzcHgsD23z7cW0oo3fKC9Ai8oopiE2jh+1IGLkMIICUEnVlZriXSqAnIXzImX3ZrONGwYQDq75xVa2Xi0W96EinQO5gIVpopg8k8WjEorm+DxIzgp8R39tXMiSJcrJpqsOGwBfwQsqmZRZ4RO5cIB2+u8/ysJFOrcZwjpYvchPtESIAEoyM8XX1e/21YwaCRT00463qaVlHEq+WSmQ==|920

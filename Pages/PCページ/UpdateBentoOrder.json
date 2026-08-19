@@ -1,0 +1,943 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      }
+    },
+    "Count": 18
+  },
+  "Cols": {
+    "InLogicalVisibleIndexes": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "Count": 27
+  },
+  "Values": {
+    "1,2": "注文変更",
+    "1,8": "注文削除",
+    "1,14": "キャンセル",
+    "1,21": "弁当ID",
+    "2,21": "0",
+    "4,2": "注文日"
+  },
+  "AttachInfos": {
+    "1,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "BentoOrder",
+            "ShowConfirm": false
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "ReloadData": true
+          }
+        ],
+        "Text": "注文変更",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "1,8": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "BentoOrder",
+            "UpdateType": "delete",
+            "ShowConfirm": true,
+            "ConfirmText": "本当に削除してもよろしいですか？",
+            "UpdateBindingValues": [
+              {
+                "BindingInfo": {
+                  "TableName": "BentoOrder",
+                  "ColumnName": "BentoID",
+                  "GUID": "88b961e0-aab9-4fd8-ac3b-9d42c222b606"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=UpdateBentoOrder!X2"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "ReloadData": true
+          }
+        ],
+        "Text": "注文削除",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "1,14": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "ReloadData": true
+          }
+        ],
+        "Text": "キャンセル",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "2,21": {
+      "BindingInfo": {
+        "TableName": "BentoOrder",
+        "ColumnName": "BentoID",
+        "GUID": "c0c6d5ae-a267-457e-9c44-d55d16eaff0e"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsBounding": true,
+        "DataSource": "Bento",
+        "ValueColumnBindingInfo": {
+          "TableName": "Bento",
+          "ColumnName": "ID",
+          "GUID": "943b45c4-0aca-4809-bca7-c61eee6f90ae"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "Bento",
+          "ColumnName": "BentoWithPrice",
+          "GUID": "8a85ce90-7109-467b-bd9e-efbc344156bf"
+        },
+        "CellDefaultValue": "0"
+      }
+    },
+    "4,21": {
+      "ListViewInfo": {
+        "Name": "リストビュー2",
+        "TableName": "Bento",
+        "RowIndex": 4,
+        "ColumnIndex": 21,
+        "RowCount": 5,
+        "ColumnCount": 5,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "IsRowHeaderCheckBoxVisible": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "SelectionMode": 1,
+        "AlwaysReservedSelections": true,
+        "IsSingleSelection": true,
+        "ColumnOperation": 2
+      }
+    },
+    "5,22": {
+      "NameUsedInJavaScript": "ID",
+      "BindingInfo": {
+        "TableName": "Bento",
+        "ColumnName": "ID",
+        "GUID": "2bec38a7-baa4-4e16-8f1a-55676533f614"
+      }
+    },
+    "5,23": {
+      "NameUsedInJavaScript": "BentoName",
+      "BindingInfo": {
+        "TableName": "Bento",
+        "ColumnName": "BentoName",
+        "GUID": "5e143369-a2b1-47a8-9bc9-40afc5b60f31"
+      }
+    },
+    "5,24": {
+      "NameUsedInJavaScript": "BentoPrice",
+      "BindingInfo": {
+        "TableName": "Bento",
+        "ColumnName": "BentoPrice",
+        "GUID": "31770790-215e-43ad-9143-0b08c096440e"
+      }
+    },
+    "5,25": {
+      "NameUsedInJavaScript": "BentoImage",
+      "BindingInfo": {
+        "TableName": "Bento",
+        "ColumnName": "BentoImage",
+        "GUID": "b1fcd675-feb2-4888-b328-e04c19adc842"
+      }
+    },
+    "6,1": {
+      "CellType": {
+        "$type": "Forguncy.RepeaterCellType, ServerDesignerCommon",
+        "TemplatePageName": "fec1987574e5426cbfd8e8d547061ff",
+        "Command": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [
+            {
+              "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+              "PropertyItemsList": [
+                {
+                  "TargetCells": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=UpdateBentoOrder!V3"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=UpdateBentoOrder!ID"
+                  }
+                }
+              ]
+            }
+          ],
+          "ParamProperties": {
+            "ID": "ID",
+            "BentoName": "BentoName",
+            "BentoPrice": "BentoPrice",
+            "BentoImage": "BentoImage"
+          }
+        },
+        "ListviewName": "リストビュー2",
+        "TemplateKey": "スタイル2"
+      }
+    },
+    "10,21": {
+      "ListViewInfo": {
+        "Name": "リストビュー1",
+        "TableName": "BentoOrder",
+        "RowIndex": 10,
+        "ColumnIndex": 21,
+        "RowCount": 4,
+        "ColumnCount": 5,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "BentoOrder",
+            "ColumnName": "OrderDate",
+            "GUID": "b1ea02ef-7ffe-4cb0-bfd7-6e7471adaf8e"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=UpdateBentoOrder!H5"
+          }
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ColumnOperation": 1,
+        "ShowGridLine": true
+      }
+    },
+    "11,21": {
+      "BindingInfo": {
+        "TableName": "BentoOrder",
+        "ColumnName": "OrderDate",
+        "GUID": "86c41d94-8867-4d45-ba29-d617cec0bbff"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 16.0,
+        "Formatter": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 16.0,
+        "Formatter": 0
+      },
+      {
+        "Background": null,
+        "FontFamily": 1,
+        "FontSize": 16.0,
+        "FontStyle": 2,
+        "FontWeight": 2,
+        "Foreground": 3,
+        "Formatter": 4,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 5,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 16.0,
+        "Formatter": 0
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 16.0,
+        "Formatter": 0,
+        "HorizontalAlignment": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 16.0,
+        "Formatter": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontSize": 16.0,
+        "FontStyle": 2,
+        "FontWeight": 2,
+        "Foreground": null,
+        "Formatter": 7,
+        "TextIndent": 0,
+        "HorizontalAlignment": 8,
+        "VerticalAlignment": 5,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "Background": null,
+        "FontFamily": 1,
+        "FontSize": 16.0,
+        "FontStyle": 2,
+        "FontWeight": 2,
+        "Foreground": null,
+        "Formatter": 9,
+        "TextIndent": 0,
+        "HorizontalAlignment": 8,
+        "VerticalAlignment": 5,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "Background": null,
+        "FontFamily": 1,
+        "FontSize": 16.0,
+        "FontStyle": 2,
+        "FontWeight": 2,
+        "Foreground": null,
+        "Formatter": 7,
+        "TextIndent": 0,
+        "HorizontalAlignment": 8,
+        "VerticalAlignment": 5,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 14.670000076293945,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "HorizontalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 1,
+        "FontSize": 16.0,
+        "FontStyle": 2,
+        "FontWeight": 2,
+        "Foreground": 3,
+        "Formatter": 4,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 5,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 16.0,
+        "Formatter": 0,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 1,
+        "FontSize": 16.0,
+        "FontStyle": 2,
+        "FontWeight": 2,
+        "Foreground": 3,
+        "Formatter": 4,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 5,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 16.0,
+        "Formatter": 0,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "[AUTO]General",
+        "Body",
+        "Normal",
+        "#FF000000",
+        "yyyy/MM/dd",
+        "Center",
+        "Left",
+        " ¥#,##0_);[Red] ¥(#,##0)",
+        "General",
+        "yyyy/m/d",
+        "#FFA9A9A9"
+      ],
+      "Borders": [
+        {
+          "Color": 10
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,0": 0,
+      "1,2": 1,
+      "1,6": 2,
+      "1,8": 1,
+      "1,14": 1,
+      "1,18": 3,
+      "1,19": 3,
+      "1,21": 4,
+      "1,22": 4,
+      "1,23": 4,
+      "1,24": 4,
+      "1,25": 5,
+      "1,26": 5,
+      "2,0": 0,
+      "2,21": 1,
+      "2,26": 5,
+      "3,0": 0,
+      "3,11": 6,
+      "3,12": 6,
+      "3,13": 6,
+      "3,14": 5,
+      "3,15": 5,
+      "3,16": 7,
+      "3,17": 7,
+      "3,26": 7,
+      "4,0": 0,
+      "4,2": 4,
+      "4,3": 4,
+      "4,4": 4,
+      "4,5": 4,
+      "4,6": 5,
+      "4,7": 8,
+      "4,13": 6,
+      "4,14": 5,
+      "4,15": 9,
+      "4,16": 3,
+      "4,17": 3,
+      "4,21": 6,
+      "4,22": 6,
+      "4,23": 6,
+      "4,24": 6,
+      "4,25": 6,
+      "4,26": 3,
+      "5,0": 0,
+      "5,5": 5,
+      "5,13": 10,
+      "5,14": 5,
+      "5,15": 5,
+      "5,16": 3,
+      "5,17": 3,
+      "5,21": 6,
+      "5,22": 5,
+      "5,23": 5,
+      "5,24": 5,
+      "5,25": 6,
+      "5,26": 3,
+      "6,0": 0,
+      "6,1": 11,
+      "6,2": 6,
+      "6,3": 6,
+      "6,4": 6,
+      "6,5": 6,
+      "6,6": 6,
+      "6,7": 6,
+      "6,8": 6,
+      "6,9": 6,
+      "6,10": 6,
+      "6,11": 6,
+      "6,12": 6,
+      "6,13": 6,
+      "6,14": 6,
+      "6,15": 6,
+      "6,16": 6,
+      "6,17": 6,
+      "6,18": 6,
+      "6,19": 3,
+      "6,20": 3,
+      "6,21": 6,
+      "6,22": 6,
+      "6,23": 6,
+      "6,24": 6,
+      "6,25": 6,
+      "6,26": 3,
+      "7,0": 0,
+      "7,1": 6,
+      "7,2": 6,
+      "7,3": 6,
+      "7,4": 6,
+      "7,5": 6,
+      "7,6": 6,
+      "7,7": 6,
+      "7,8": 6,
+      "7,9": 6,
+      "7,10": 6,
+      "7,11": 6,
+      "7,12": 6,
+      "7,13": 6,
+      "7,14": 6,
+      "7,15": 6,
+      "7,16": 6,
+      "7,17": 6,
+      "7,18": 6,
+      "7,19": 3,
+      "7,20": 3,
+      "7,21": 6,
+      "7,22": 6,
+      "7,23": 6,
+      "7,24": 6,
+      "7,25": 6,
+      "7,26": 3,
+      "8,0": 0,
+      "8,1": 6,
+      "8,2": 6,
+      "8,3": 6,
+      "8,4": 6,
+      "8,5": 6,
+      "8,6": 6,
+      "8,7": 6,
+      "8,8": 6,
+      "8,9": 6,
+      "8,10": 6,
+      "8,11": 6,
+      "8,12": 6,
+      "8,13": 6,
+      "8,14": 6,
+      "8,15": 6,
+      "8,16": 6,
+      "8,17": 6,
+      "8,18": 6,
+      "8,21": 6,
+      "8,22": 6,
+      "8,23": 6,
+      "8,24": 6,
+      "8,25": 6,
+      "9,0": 0,
+      "9,1": 6,
+      "9,2": 6,
+      "9,3": 6,
+      "9,4": 6,
+      "9,5": 6,
+      "9,6": 6,
+      "9,7": 6,
+      "9,8": 6,
+      "9,9": 6,
+      "9,10": 6,
+      "9,11": 6,
+      "9,12": 6,
+      "9,13": 6,
+      "9,14": 6,
+      "9,15": 6,
+      "9,16": 6,
+      "9,17": 6,
+      "9,18": 6,
+      "9,19": 3,
+      "9,20": 3,
+      "9,21": 6,
+      "9,22": 6,
+      "9,23": 6,
+      "9,24": 6,
+      "9,25": 6,
+      "9,26": 3,
+      "10,0": 0,
+      "10,1": 6,
+      "10,2": 6,
+      "10,3": 6,
+      "10,4": 6,
+      "10,5": 6,
+      "10,6": 6,
+      "10,7": 6,
+      "10,8": 6,
+      "10,9": 6,
+      "10,10": 6,
+      "10,11": 6,
+      "10,12": 6,
+      "10,13": 6,
+      "10,14": 6,
+      "10,15": 6,
+      "10,16": 6,
+      "10,17": 6,
+      "10,18": 6,
+      "10,19": 3,
+      "10,20": 3,
+      "10,21": 12,
+      "10,22": 2,
+      "10,23": 2,
+      "10,24": 13,
+      "10,25": 13,
+      "10,26": 3,
+      "11,0": 0,
+      "11,1": 6,
+      "11,2": 6,
+      "11,3": 6,
+      "11,4": 6,
+      "11,5": 6,
+      "11,6": 6,
+      "11,7": 6,
+      "11,8": 6,
+      "11,9": 6,
+      "11,10": 6,
+      "11,11": 6,
+      "11,12": 6,
+      "11,13": 6,
+      "11,14": 6,
+      "11,15": 6,
+      "11,16": 6,
+      "11,17": 6,
+      "11,18": 6,
+      "11,19": 3,
+      "11,20": 3,
+      "11,21": 12,
+      "11,22": 2,
+      "11,23": 2,
+      "11,24": 5,
+      "11,25": 5,
+      "11,26": 3,
+      "12,0": 0,
+      "12,1": 6,
+      "12,2": 6,
+      "12,3": 6,
+      "12,4": 6,
+      "12,5": 6,
+      "12,6": 6,
+      "12,7": 6,
+      "12,8": 6,
+      "12,9": 6,
+      "12,10": 6,
+      "12,11": 6,
+      "12,12": 6,
+      "12,13": 6,
+      "12,14": 6,
+      "12,15": 6,
+      "12,16": 6,
+      "12,17": 6,
+      "12,18": 6,
+      "12,19": 3,
+      "12,20": 3,
+      "12,21": 12,
+      "12,22": 5,
+      "12,23": 5,
+      "12,24": 5,
+      "12,25": 5,
+      "12,26": 3,
+      "13,0": 0,
+      "13,1": 6,
+      "13,2": 6,
+      "13,3": 6,
+      "13,4": 6,
+      "13,5": 6,
+      "13,6": 6,
+      "13,7": 6,
+      "13,8": 6,
+      "13,9": 6,
+      "13,10": 6,
+      "13,11": 6,
+      "13,12": 6,
+      "13,13": 6,
+      "13,14": 6,
+      "13,15": 6,
+      "13,16": 6,
+      "13,17": 6,
+      "13,18": 6,
+      "13,19": 3,
+      "13,20": 3,
+      "13,21": 14,
+      "13,22": 15,
+      "13,23": 15,
+      "13,24": 15,
+      "13,25": 15,
+      "13,26": 3,
+      "14,0": 0,
+      "14,1": 6,
+      "14,2": 6,
+      "14,3": 6,
+      "14,4": 6,
+      "14,5": 6,
+      "14,6": 6,
+      "14,7": 6,
+      "14,8": 6,
+      "14,9": 6,
+      "14,10": 6,
+      "14,11": 6,
+      "14,12": 6,
+      "14,13": 6,
+      "14,14": 6,
+      "14,15": 6,
+      "14,16": 6,
+      "14,17": 6,
+      "14,18": 6,
+      "14,19": 3,
+      "15,0": 3,
+      "15,1": 6,
+      "15,2": 6,
+      "15,3": 6,
+      "15,4": 6,
+      "15,5": 6,
+      "15,6": 6,
+      "15,7": 6,
+      "15,8": 6,
+      "15,9": 6,
+      "15,10": 6,
+      "15,11": 6,
+      "15,12": 6,
+      "15,13": 6,
+      "15,14": 6,
+      "15,15": 6,
+      "15,16": 6,
+      "15,17": 6,
+      "15,18": 6,
+      "15,19": 3,
+      "16,0": 3,
+      "16,1": 6,
+      "16,2": 6,
+      "16,3": 6,
+      "16,4": 6,
+      "16,5": 6,
+      "16,6": 6,
+      "16,7": 6,
+      "16,8": 6,
+      "16,9": 6,
+      "16,10": 6,
+      "16,11": 6,
+      "16,12": 6,
+      "16,13": 6,
+      "16,14": 6,
+      "16,15": 6,
+      "16,16": 6,
+      "16,17": 6,
+      "16,18": 6,
+      "16,19": 3,
+      "17,0": 3,
+      "17,19": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "6,1,11,18",
+    "4,2,1,4",
+    "1,2,2,4",
+    "1,8,2,4",
+    "1,14,2,4",
+    "2,21,1,5",
+    "1,21,1,4",
+    "6,21,3,5",
+    "12,21,2,5",
+    "11,21,1,3",
+    "4,7,1,6",
+    "10,21,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "弁当注文",
+    "PageOverflowMode": 2,
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "変数_初期選択弁当のID",
+        "ParameterValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=UpdateBentoOrder!V3"
+        },
+        "ID": "812bdb5bf16a4f1eaa082bd67471085b"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "変数_行番号カウント",
+        "ParameterValue": "0",
+        "ID": "8d5ed3b47b3847379d37ff75133dbf59"
+      },
+      {
+        "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+        "LoopInfo": {
+          "$type": "Forguncy.Model.ListviewKindLoopInfo, ServerDesignerCommon",
+          "ListviewName": "リストビュー2"
+        },
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=UpdateBentoOrder!W6"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=UpdateBentoOrder!変数_初期選択弁当のID"
+                  }
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                    "ParameterName": "変数_初期選択弁当の行番号",
+                    "ParameterValue": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=UpdateBentoOrder!変数_行番号カウント"
+                    },
+                    "ID": "3f331f4affc1456ca08b7dbfaabee8e3"
+                  }
+                ],
+                "ID": "7b0cf17f-71ed-41c2-804b-084a4cdd0654"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "変数_行番号カウント",
+            "ParameterValue": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=UpdateBentoOrder!変数_行番号カウント+1"
+            },
+            "ID": "e5127c91144e4712ab319376a86f2d48"
+          }
+        ]
+      },
+      {
+        "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+        "ListviewName": "リストビュー2",
+        "UpdateType": 6,
+        "UpdateListviewCommandRunTimeMethodSetting": {
+          "MethodName": "AddRowSelection",
+          "ParameterValues": {
+            "rowIndex": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=UpdateBentoOrder!変数_初期選択弁当の行番号"
+            }
+          }
+        }
+      }
+    ],
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser",
+            "Administrator",
+            "soumu"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "BentoOrder"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//XMlntiojs/qnuXG4KKvxFY7WqI208Niztk020pNUErgyuQZCwjxwW9tFtKZIR7jU8FismWPbKnu9cwNpUiGlr51KtUIwObvVhSLLj7XbSTCT3lj5/pC+VdVlVHH8ym/14LCw0Bq9hWJzlTFrhUIAB1hlBDG+4amzWC8htRMlwlNi24sMPuVrSTqLATyYwQ+UqZpEdrzVkaX+qKcLLdvIkS3ONz/xzUdjvvEbhH/yXeBeMtsFIpczMAHp6NqYcv4xIAdoFBrnHLpN8jfmeMdgD8QZSOQoa8JrZpa6IT2SLVWocgAB3y54fxsYroziUMdE8Qc0dHnCrYCQSnXKr4ftwfErc4kzfxU4vctsM0EDVfIfx45uPzNsBiK3gtfoX8v3wXmmhoPpHyigf7qy3hJl+dQVgnveoYa6f+WAs+TlJIscm5MfjMTs69l2jZJRkjf52jj/Op42bpVDQzpFYlqg8zqciNbYxL0bsEnVKmXXEVepaFgz/N3eMd1aMxPsURja8GJg00cS6hnW9lC9Z0YRwh9bVUufLUbUniA/PJGdWJozytiHMxOKl9VG2cr5uVUMmK/HfRCQ4yLH7u6rCJ0rHn215sSPhF3kokyqfs4idAGkkhLk7XImDkt/3D2TskZ3R3zA8hIjJIvrV6gWRNy2mLG+X/iQvthODk4B2Ga9KoaSZyfMNLAD76b6rFx7PSDW9BThKo4pC6vX52WU5rYLJ7yN8NeerJjooO1AALbhK0my9Zb4UWjmTMIaPbMo68Gokc367mS9m88nHVr8fljkLrGXYSP3sFe9JLS/4Mr/8kKe0C/WgxWM72S9PhTsUUAkh50TgM0jTRT7UEQbzfkJtKezDMmPqnXyCwOhdtvRuoFUYYQVu6kqwysRtbpTGQJDrYJOiAB/4fm5Kb+qKEcEBA==|920

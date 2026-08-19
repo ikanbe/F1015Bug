@@ -1,0 +1,50 @@
+{
+  "IntegrateWithOtherApplication": {
+    "Password": "$S1)kYuaik@("
+  },
+  "ShareCommandContainers": [],
+  "ListviewLoadingIndicatorSettings": {},
+  "GlobalProperties": [],
+  "WebSitePort": 53254,
+  "UserServicePort": 62340,
+  "NotAllowModifyDatabaseByJsApi": false,
+  "NotAllowQueryDatabaseByJsApi": false,
+  "NotAllowSendMailByJsApi": false,
+  "ExecConcurrentScheduledTasks": false,
+  "StartDateFiscalYear": 4,
+  "BaseOnStartingMonth": true,
+  "MaxRowCount": 10000000,
+  "PageLoadingMode": 2,
+  "AuditingList": {
+    "Bento": 0,
+    "BentoOrder": 0,
+    "Calendar": 0,
+    "ユーザー情報ビュー": 0,
+    "BentoOrderSum": 0
+  },
+  "MultipleLanguageSettings": {
+    "Languages": [
+      {
+        "Name": "ja",
+        "IsDefault": true,
+        "Description": "組み込みの日本語は削除できません。",
+        "IsBuildIn": true,
+        "LanguageAttribute": "ja",
+        "FontFamily": "Body"
+      },
+      {
+        "Name": "en",
+        "Description": "組み込みの英語は削除できません。",
+        "IsBuildIn": true,
+        "LanguageAttribute": "en",
+        "FontFamily": "Calibri"
+      }
+    ],
+    "PublicResource": {},
+    "RuntimeBuiltInResource": {
+      "FrontEndResources": {},
+      "ServerResources": {}
+    },
+    "PluginResource": {}
+  }
+}

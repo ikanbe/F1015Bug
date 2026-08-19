@@ -1,0 +1,178 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 32
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "52": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 54
+  },
+  "Values": {
+    "15,16": "接続タイムアウト",
+    "18,16": "一定時間操作が行われなかったため、アプリケーションは切断されました。\nボタンをクリックしてこのページを再読み込みします。",
+    "22,21": "ページの再読み込み"
+  },
+  "AttachInfos": {
+    "4,16": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImageSizeMode": 0,
+        "ImagePath": "fgc_built_in_page_disconnected.png"
+      }
+    },
+    "22,21": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "ページの再読み込み",
+        "TemplateKey": "_RS_Main1",
+        "ForguncyAttribute": "ReloadPage_Button"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 34.666666666666664,
+        "Foreground": 1,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 4,
+        "Formatter": 5,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
+        "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Text 1 25",
+        "Center",
+        "Top",
+        "Text 1 50",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "4,16": 0,
+      "15,16": 1,
+      "18,16": 2,
+      "22,21": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "4,16,10,22",
+    "15,16,3,22",
+    "18,16,3,22",
+    "22,21,2,12"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MobilePageName": "FGC_接続タイムアウト_モバイル",
+    "Title": "FGC_接続タイムアウト",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//AId7fJHwhlWsdoK+K3YbwKztl1RcHce1FkJ2AKRYdhoBl2Kthkj1/w2WOKMNOxgXHlChNU9XEUZlXU4GQrtY0BfOX5oV5m0FoH/LCRIb1WjQIfZFWPm9yVxsIjgt2ad/YeeSTSdFYZOtkQB9V31kQPF+M86AZZJScbWax578wCmWrTggaNtAz6WxDyeHBikxQrchvLTtNKptyyhFMbaOiBbFO9iTnhfMctl1V50CrXwAHspja+cb0IeJujF1JcWov84ZFDDzjH9p3s1QtwE63EA/V0Ny4xyWO4aVD9gdDCLxil5ALlKmTkPPncSqJrH8duSbYg1grlQM/70sAj0TLdBhVXxImd5XQdzY4g1QvVWxk20a4vN7M9NrHg02vJAykI1Sz6jvufkL/RiGFMF0R5Ce47CpvZHSPXtiZb2graF3uPPzKkXHwnwa7MOOwh8Vn31bcZxwMUZO2fCVyLBGMjiWZUmQM3IVoSP7/lr7Zk9zeF5WIBSsmIDIxtMUuIUS+w4xhJxENku77zqYrEHKPpqWLNDt3/DFQZCxaqlFNONYiSKHJKeGoIUWfFfWjHhHSvTnqXUEo6Wvg2GYPpUw4rOC3Ogd2RBLLQz4IuQ0xrdP94J79+XUmQ6KZUuGQVRHoH7hpaKGDvQTywzYjzB9A45Vi3Aza6uiTAlEOf/GdW8kY/YgxJF+OOwGBahfgrvn6tczI+IrulRP4hU3hOJWhIuZFIEFlPBFEUJs9RyCVocn4/rqs0QHlJ7c1lM8vKkSqs0ceQZbf6NLJljiETvjYXF90aDbpjC+ngbf4zoPn+MyTwjtubxG+iq9JjETnjeCWZv7iZWfiW5tAs7IJGIMF2FTd3cJ0AovaLobN2cEfmI47Vwx3U7mR2EbwQKckSxR5mS8NNwjcP2DFJJAUcHgZg==|920

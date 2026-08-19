@@ -1,0 +1,1230 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 33
+  },
+  "Cols": {
+    "Count": 56
+  },
+  "Values": {
+    "17,8": "※以下のユーザーでログインできます。",
+    "17,30": "ユーザー名",
+    "18,8": "ユーザー名",
+    "18,13": "氏名",
+    "18,18": "パスワード",
+    "18,22": "ロール",
+    "19,8": "Hideki",
+    "19,13": "秋山 秀樹",
+    "19,18": 123456,
+    "20,8": "Ikuma",
+    "20,13": "森上 偉久馬",
+    "20,18": 123456,
+    "21,8": "Kazuaki",
+    "21,13": "田中 和明",
+    "21,18": 123456,
+    "21,30": "パスワード",
+    "22,8": "Keiko",
+    "22,13": "正門 恵子",
+    "22,18": 123456,
+    "23,8": "Yasue",
+    "23,13": "加藤 泰江",
+    "23,18": 123456,
+    "24,8": "Hanako",
+    "24,13": "葡萄 花子",
+    "24,18": 123456,
+    "24,22": "総務",
+    "26,8": "ユーザー名か氏名をクリックするとログイン情報が設定されます。",
+    "28,30": "ログイン",
+    "29,6": "ビルトインページは、リセットできます。実際にアプリケーションを運用する際には、",
+    "30,6": "ページをリセットしてユーザー名とパスワードに関する記載部分を削除してください。",
+    "31,30": "パスワードを忘れた場合"
+  },
+  "AttachInfos": {
+    "4,21": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_logo_dark.svg"
+      }
+    },
+    "18,30": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "Icon": {
+          "Name": "Navigation/169_user_2.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 50"
+        },
+        "IconSize": 20.0,
+        "TemplateKey": "_RS_Normal_LightTheme_Normal1",
+        "ForguncyAttribute": "LogIn_Username"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "19,8": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE19"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!I20"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE23"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!S20"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "Hideki",
+        "ClickMode": 1
+      }
+    },
+    "19,13": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE19"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!I20"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE23"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!S20"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "秋山 秀樹",
+        "ClickMode": 1
+      }
+    },
+    "20,8": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE19"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!I21"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE23"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!S21"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "Ikuma",
+        "ClickMode": 1
+      }
+    },
+    "20,13": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE19"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!I21"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE23"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!S21"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "森上 偉久馬",
+        "ClickMode": 1
+      }
+    },
+    "21,8": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE19"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!I22"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE23"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!S22"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "Kazuaki",
+        "ClickMode": 1
+      }
+    },
+    "21,13": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE19"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!I22"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE23"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!S22"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "田中 和明",
+        "ClickMode": 1
+      }
+    },
+    "22,8": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE19"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!I23"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE23"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!S23"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "Keiko",
+        "ClickMode": 1
+      }
+    },
+    "22,13": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE19"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!I23"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE23"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!S23"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "正門 恵子",
+        "ClickMode": 1
+      }
+    },
+    "22,30": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "ShowPassword": true,
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "Icon": {
+          "Name": "Application/078_lock_1.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 50"
+        },
+        "IconSize": 20.0,
+        "TemplateKey": "_RS_Normal_LightTheme_Normal1",
+        "ForguncyAttribute": "LogIn_Password"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "23,8": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE19"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!I24"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE23"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!S24"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "Yasue",
+        "ClickMode": 1
+      }
+    },
+    "23,13": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE19"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!I24"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE23"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!S24"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "加藤 泰江",
+        "ClickMode": 1
+      }
+    },
+    "24,8": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE19"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!I25"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE23"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!S25"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "Hanako",
+        "ClickMode": 1
+      }
+    },
+    "24,13": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE19"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!I25"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!AE23"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=FGC_ログイン!S25"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "葡萄 花子",
+        "ClickMode": 1
+      }
+    },
+    "25,30": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Caption": "ログインしたままにする",
+        "Style": 1,
+        "PrimaryColor": "Accent 1 -25",
+        "ForguncyAttribute": "LogIn_RememberMe"
+      }
+    },
+    "28,30": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "ログイン",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2",
+        "ForguncyAttribute": "LogIn_Button"
+      }
+    },
+    "31,30": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "FGC_パスワードを忘れた場合",
+            "IgnoreTargetPageCachedCurrentRowInfo": false
+          }
+        ],
+        "Text": "パスワードを忘れた場合",
+        "ClickMode": 1,
+        "TemplateKey": "样式7"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "Foreground": 2,
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 4,
+        "Foreground": 5,
+        "Formatter": 6,
+        "BorderBottom": 0,
+        "BorderTop": 1,
+        "BorderLeft": 1,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 1,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 1,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "Background": 4,
+        "FontFamily": 1,
+        "Foreground": 5,
+        "Formatter": 6,
+        "BorderBottom": 0,
+        "BorderTop": 1,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "Background": 4,
+        "FontFamily": 1,
+        "Foreground": 5,
+        "Formatter": 6,
+        "HorizontalAlignment": 8,
+        "BorderBottom": 0,
+        "BorderTop": 1,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 1,
+        "BorderLeft": null,
+        "BorderRight": 1
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 9,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "Foreground": 10,
+        "Formatter": 3,
+        "Underline": false,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 1,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "Foreground": 10,
+        "Formatter": 3,
+        "Underline": false,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 6,
+        "HorizontalAlignment": 8,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 1
+      },
+      {
+        "FontFamily": 1,
+        "Foreground": 10,
+        "Formatter": 3,
+        "Underline": false,
+        "BorderBottom": 1,
+        "BorderTop": 0,
+        "BorderLeft": 1,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 1,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "Foreground": 10,
+        "Formatter": 3,
+        "Underline": false,
+        "BorderBottom": 1,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 6,
+        "HorizontalAlignment": 8,
+        "BorderBottom": 1,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 1,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "HorizontalAlignment": 8,
+        "BorderBottom": 1,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 1,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 1
+      },
+      {
+        "FontFamily": 1,
+        "Foreground": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 11,
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 12,
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "Foreground": 4,
+        "Formatter": 3,
+        "HorizontalAlignment": 8,
+        "Underline": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "#FFFFFFFF",
+        "Body",
+        "Text 1 50",
+        "[AUTO]General",
+        "Accent 1 0",
+        "Background 1 0",
+        "General",
+        "#FFB2B2B2",
+        "Center",
+        "@",
+        "#FF000000",
+        "Text 2 0",
+        "Accent 2 0"
+      ],
+      "Borders": [
+        {
+          "Color": 7
+        },
+        {
+          "Style": 2,
+          "Color": 7
+        }
+      ]
+    },
+    "CellStyles": {
+      "4,21": 0,
+      "17,30": 1,
+      "17,31": 2,
+      "17,32": 2,
+      "17,33": 2,
+      "17,34": 2,
+      "17,35": 2,
+      "17,36": 2,
+      "17,37": 2,
+      "17,38": 2,
+      "17,39": 2,
+      "17,40": 2,
+      "17,41": 2,
+      "17,42": 2,
+      "17,43": 2,
+      "18,8": 3,
+      "18,9": 4,
+      "18,10": 4,
+      "18,11": 4,
+      "18,12": 5,
+      "18,13": 6,
+      "18,14": 4,
+      "18,15": 4,
+      "18,16": 4,
+      "18,17": 5,
+      "18,18": 7,
+      "18,19": 4,
+      "18,20": 4,
+      "18,21": 5,
+      "18,22": 7,
+      "18,23": 4,
+      "18,24": 4,
+      "18,25": 4,
+      "18,26": 8,
+      "18,30": 9,
+      "18,31": 2,
+      "18,32": 2,
+      "18,33": 2,
+      "18,34": 2,
+      "18,35": 2,
+      "18,36": 2,
+      "18,37": 2,
+      "18,38": 2,
+      "18,39": 2,
+      "18,40": 2,
+      "18,41": 2,
+      "18,42": 2,
+      "18,43": 2,
+      "19,8": 10,
+      "19,9": 11,
+      "19,10": 11,
+      "19,11": 11,
+      "19,12": 11,
+      "19,13": 12,
+      "19,14": 11,
+      "19,15": 11,
+      "19,16": 11,
+      "19,17": 11,
+      "19,18": 13,
+      "19,19": 11,
+      "19,20": 11,
+      "19,21": 14,
+      "19,22": 15,
+      "19,23": 11,
+      "19,24": 11,
+      "19,25": 11,
+      "19,26": 16,
+      "19,30": 2,
+      "19,31": 2,
+      "19,32": 2,
+      "19,33": 2,
+      "19,34": 2,
+      "19,35": 2,
+      "19,36": 2,
+      "19,37": 2,
+      "19,38": 2,
+      "19,39": 2,
+      "19,40": 2,
+      "19,41": 2,
+      "19,42": 2,
+      "19,43": 2,
+      "20,8": 10,
+      "20,9": 11,
+      "20,10": 11,
+      "20,11": 11,
+      "20,12": 11,
+      "20,13": 12,
+      "20,14": 11,
+      "20,15": 11,
+      "20,16": 11,
+      "20,17": 11,
+      "20,18": 13,
+      "20,19": 11,
+      "20,20": 11,
+      "20,21": 14,
+      "20,22": 15,
+      "20,23": 11,
+      "20,24": 11,
+      "20,25": 11,
+      "20,26": 16,
+      "20,30": 2,
+      "20,31": 2,
+      "20,32": 2,
+      "20,33": 2,
+      "20,34": 2,
+      "20,35": 2,
+      "20,36": 2,
+      "20,37": 2,
+      "20,38": 2,
+      "20,39": 2,
+      "20,40": 2,
+      "20,41": 2,
+      "20,42": 2,
+      "20,43": 2,
+      "21,8": 10,
+      "21,9": 11,
+      "21,10": 11,
+      "21,11": 11,
+      "21,12": 11,
+      "21,13": 12,
+      "21,14": 11,
+      "21,15": 11,
+      "21,16": 11,
+      "21,17": 11,
+      "21,18": 13,
+      "21,19": 11,
+      "21,20": 11,
+      "21,21": 14,
+      "21,22": 15,
+      "21,23": 11,
+      "21,24": 11,
+      "21,25": 11,
+      "21,26": 16,
+      "21,30": 1,
+      "21,31": 2,
+      "21,32": 2,
+      "21,33": 2,
+      "21,34": 2,
+      "21,35": 2,
+      "21,36": 2,
+      "21,37": 2,
+      "21,38": 2,
+      "21,39": 2,
+      "21,40": 2,
+      "21,41": 2,
+      "21,42": 2,
+      "21,43": 2,
+      "22,8": 10,
+      "22,9": 11,
+      "22,10": 11,
+      "22,11": 11,
+      "22,12": 11,
+      "22,13": 12,
+      "22,14": 11,
+      "22,15": 11,
+      "22,16": 11,
+      "22,17": 11,
+      "22,18": 13,
+      "22,19": 11,
+      "22,20": 11,
+      "22,21": 14,
+      "22,22": 15,
+      "22,23": 11,
+      "22,24": 11,
+      "22,25": 11,
+      "22,26": 16,
+      "22,30": 9,
+      "22,31": 2,
+      "22,32": 2,
+      "22,33": 2,
+      "22,34": 2,
+      "22,35": 2,
+      "22,36": 2,
+      "22,37": 2,
+      "22,38": 2,
+      "22,39": 2,
+      "22,40": 2,
+      "22,41": 2,
+      "22,42": 2,
+      "22,43": 2,
+      "23,8": 10,
+      "23,9": 11,
+      "23,10": 11,
+      "23,11": 11,
+      "23,12": 11,
+      "23,13": 12,
+      "23,14": 11,
+      "23,15": 11,
+      "23,16": 11,
+      "23,17": 11,
+      "23,18": 13,
+      "23,19": 11,
+      "23,20": 11,
+      "23,21": 14,
+      "23,22": 15,
+      "23,23": 11,
+      "23,24": 11,
+      "23,25": 11,
+      "23,26": 16,
+      "23,30": 2,
+      "23,31": 2,
+      "23,32": 2,
+      "23,33": 2,
+      "23,34": 2,
+      "23,35": 2,
+      "23,36": 2,
+      "23,37": 2,
+      "23,38": 2,
+      "23,39": 2,
+      "23,40": 2,
+      "23,41": 2,
+      "23,42": 2,
+      "23,43": 2,
+      "24,8": 17,
+      "24,9": 18,
+      "24,10": 18,
+      "24,11": 18,
+      "24,12": 18,
+      "24,13": 19,
+      "24,14": 18,
+      "24,15": 18,
+      "24,16": 18,
+      "24,17": 18,
+      "24,18": 20,
+      "24,19": 18,
+      "24,20": 18,
+      "24,21": 21,
+      "24,22": 22,
+      "24,23": 18,
+      "24,24": 18,
+      "24,25": 18,
+      "24,26": 23,
+      "24,30": 2,
+      "24,31": 2,
+      "24,32": 2,
+      "24,33": 2,
+      "24,34": 2,
+      "24,35": 2,
+      "24,36": 2,
+      "24,37": 2,
+      "24,38": 2,
+      "24,39": 2,
+      "24,40": 2,
+      "24,41": 2,
+      "24,42": 2,
+      "24,43": 2,
+      "25,30": 24,
+      "25,31": 2,
+      "25,32": 2,
+      "25,33": 2,
+      "25,34": 2,
+      "25,35": 2,
+      "25,36": 2,
+      "25,37": 2,
+      "25,38": 2,
+      "25,39": 2,
+      "25,40": 2,
+      "25,41": 2,
+      "25,42": 2,
+      "25,43": 2,
+      "26,8": 25,
+      "26,30": 2,
+      "26,31": 2,
+      "26,32": 2,
+      "26,33": 2,
+      "26,34": 2,
+      "26,35": 2,
+      "26,36": 2,
+      "26,37": 2,
+      "26,38": 2,
+      "26,39": 2,
+      "26,40": 2,
+      "26,41": 2,
+      "26,42": 2,
+      "26,43": 2,
+      "27,30": 2,
+      "27,31": 2,
+      "27,32": 2,
+      "27,33": 2,
+      "27,34": 2,
+      "27,35": 2,
+      "27,36": 2,
+      "27,37": 2,
+      "27,38": 2,
+      "27,39": 2,
+      "27,40": 2,
+      "27,41": 2,
+      "27,42": 2,
+      "27,43": 2,
+      "28,30": 26,
+      "28,31": 2,
+      "28,32": 2,
+      "28,33": 2,
+      "28,34": 2,
+      "28,35": 2,
+      "28,36": 2,
+      "28,37": 2,
+      "28,38": 2,
+      "28,39": 2,
+      "28,40": 2,
+      "28,41": 2,
+      "28,42": 2,
+      "28,43": 2,
+      "29,6": 27,
+      "29,30": 2,
+      "29,31": 2,
+      "29,32": 2,
+      "29,33": 2,
+      "29,34": 2,
+      "29,35": 2,
+      "29,36": 2,
+      "29,37": 2,
+      "29,38": 2,
+      "29,39": 2,
+      "29,40": 2,
+      "29,41": 2,
+      "29,42": 2,
+      "29,43": 2,
+      "30,6": 27,
+      "30,30": 2,
+      "30,31": 2,
+      "30,32": 2,
+      "30,33": 2,
+      "30,34": 2,
+      "30,35": 2,
+      "30,36": 2,
+      "30,37": 2,
+      "30,38": 2,
+      "30,39": 2,
+      "30,40": 2,
+      "30,41": 2,
+      "30,42": 2,
+      "30,43": 2,
+      "31,30": 28,
+      "31,31": 2,
+      "31,32": 2,
+      "31,33": 2,
+      "31,34": 2,
+      "31,35": 2,
+      "31,36": 2,
+      "31,37": 2,
+      "31,38": 2,
+      "31,39": 2,
+      "31,40": 2,
+      "31,41": 2,
+      "31,42": 2,
+      "31,43": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "4,21,4,14",
+    "18,8,1,5",
+    "18,13,1,5",
+    "18,18,1,4",
+    "18,22,1,5",
+    "18,30,2,14",
+    "19,8,1,5",
+    "19,13,1,5",
+    "19,18,1,4",
+    "19,22,1,5",
+    "20,8,1,5",
+    "20,13,1,5",
+    "20,18,1,4",
+    "20,22,1,5",
+    "21,8,1,5",
+    "21,13,1,5",
+    "21,18,1,4",
+    "21,22,1,5",
+    "22,8,1,5",
+    "22,13,1,5",
+    "22,18,1,4",
+    "22,22,1,5",
+    "22,30,2,14",
+    "23,8,1,5",
+    "23,13,1,5",
+    "23,18,1,4",
+    "23,22,1,5",
+    "24,8,1,5",
+    "24,13,1,5",
+    "24,18,1,4",
+    "24,22,1,5",
+    "25,30,1,14",
+    "28,30,2,14",
+    "31,30,1,14"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MobilePageName": "FGC_ログイン_モバイル",
+    "Title": "ログイン",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "Name": "e64f3102-4907-402f-a4db-f62185ec0d09",
+      "DisplayName": "背景画像1",
+      "ForguncyPictureName": "PCLoginBackground3",
+      "ForguncyPictureSourceType": 2,
+      "Stretch": 3,
+      "Size": "1120,280"
+    }
+  ]
+}//E1na9PHzGq2EXAUVjrccQ1MHEeAdTcqgCNfTrB9LZEXasxCJofFdBeX+5ct4UVAgbdtjTYc+8X/UfmtUHyKNIwB5WI4IYRCwrwWOvMlN26+/4Hjo0QPYsi+G0UegGR3CHan/idsCipYidZMAEeDL1I4tx20eTs8upJADz51kG854jBKZDg5rhk1wWC1HUuhGZ/3wqHHQOdmlMBojwVpAFYB5wPBgMIkwVjgC4PUj2veB+cyufhdH++3GKoYRDSwAufJ7De4S9UMK7sf5o2Yg/1LPn4oV2pN+1XOYmYyPwYe7O/V8OEZP3Hpb65z5+bM2GmwV7Ks3dw9yILPeRZdSzGVBF+e/ddeTGqntFNLiAhIORdi21B6sXV9eKS2aNqz9YkHFTE2KU/6N9yjxaAETHktZhjlfdybOesavDcxiJmL0JSlDBJw75oKIvK11B+61FFYlQ8qX/LgKtXwjJo9+89xRY4exr/TOo9TsHDPtXFyxCjIR9kKCwaU1vrHZ5xTZFvWQBFEdmwPkgcGwY2hd4gsY5tTdLznNCQW5nKEUiWyron72oxWapof16QWkQkOV+Bd0dEAYC8HGbByldSLtb+IQv1pi6FLTRysg2BpA+L/e1E4aOQvAAo3oDWLCG9p7Dhvz667xDOIfNOUTvb/QKAP1EL3G69SH40Cr3vc/6Ju2AhqqHNQnD2jAc79/Hi1Ix6DlUr61pZt3b/ZUgkac3MXxKXeiY9u4gc/P+TUZiB4/+nfE5vaGdDls45xQllFe36gioxJdB16tLFDrHdiuhntOc1E5b/r/PjiDn5Ylui9gep2W1ssyoM5Z5KXDURVE1dlBq5S68BzxUdy2DhB+ZdcmeDCzgzBtmVxky4XJm+59/trgODP0+8VLAGlsvGubRGXPr+0i/zEz+3OhQNYC+w==|920

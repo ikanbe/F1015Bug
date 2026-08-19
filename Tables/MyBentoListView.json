@@ -1,0 +1,67 @@
+{
+  "Name": "MyBentoListView",
+  "Columns": [
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "CalendarID",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "BentoID",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "OrderPerson",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "BentoName",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "BentoPrice",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "BentoImage",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    }
+  ],
+  "BuiltInViewInfo": {
+    "ViewName": "MyBentoListView",
+    "SourceViewName": "fgc451988cf197d4228973379cf86a",
+    "CreateViewSql": "SELECT\r\na.ID as CalendarID\r\n,b.BentoID\r\n,b.OrderPerson\r\n,c.BentoName\r\n,c.BentoPrice\r\n,c.BentoImage\r\nFROM\r\n  Calendar a\r\nLEFT OUTER JOIN\r\n  BentoOrder b\r\nON a.Calendar = b.OrderDate\r\nLEFT OUTER JOIN\r\n  Bento c\r\nON b.BentoID = c.ID"
+  },
+  "PrimaryKey": [
+    "CalendarID",
+    "BentoID",
+    "OrderPerson"
+  ],
+  "Relations": [
+    {
+      "PrimaryTable": "Calendar",
+      "PrimaryColumn": "ID",
+      "ForeignTable": "MyBentoListView",
+      "ForeignColumn": "CalendarID",
+      "IsDetailTableRelation": false
+    }
+  ],
+  "Indexes": []
+}

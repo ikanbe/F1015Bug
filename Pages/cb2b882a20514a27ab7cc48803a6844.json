@@ -1,0 +1,97 @@
+{
+  "Rows": {
+    "Count": 7
+  },
+  "Cols": {
+    "Count": 16
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon"
+      },
+      "TemplateCellSource": "BentoImage"
+    },
+    "1,10": {
+      "TemplateCellSource": "BentoName"
+    },
+    "3,10": {
+      "TemplateCellSource": "BentoPrice"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      },
+      {
+        "Formatter": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "¥#,##0_);[Red](¥#,##0)"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 0,
+      "1,3": 0,
+      "1,4": 0,
+      "1,5": 0,
+      "1,6": 0,
+      "1,7": 0,
+      "1,8": 0,
+      "2,1": 0,
+      "2,2": 0,
+      "2,3": 0,
+      "2,4": 0,
+      "2,5": 0,
+      "2,6": 0,
+      "2,7": 0,
+      "2,8": 0,
+      "3,1": 0,
+      "3,2": 0,
+      "3,3": 0,
+      "3,4": 0,
+      "3,5": 0,
+      "3,6": 0,
+      "3,7": 0,
+      "3,8": 0,
+      "3,10": 1,
+      "4,1": 0,
+      "4,2": 0,
+      "4,3": 0,
+      "4,4": 0,
+      "4,5": 0,
+      "4,6": 0,
+      "4,7": 0,
+      "4,8": 0,
+      "5,1": 0,
+      "5,2": 0,
+      "5,3": 0,
+      "5,4": 0,
+      "5,5": 0,
+      "5,6": 0,
+      "5,7": 0,
+      "5,8": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,1,5,8",
+    "1,10,1,5",
+    "3,10,1,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "NewBentoOrder"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//f9YesrHIm5Rviv6G4yz7e6ipEuYj6MQAUh5IfdgJd8cS80ne+EKFKauGMA3AIhdRK98ohnyjWxVXmCefaU1OuYZksajpbOa/lArEET0Ryg0Qv0YsDrh+LbDo6lYdE/999qTFXNEbS8Ar1m25DKZdgTImKsERlhDj1B35kBN2CwpSB3iWW5uE9lz0WuCDJK3Xw6LO1B7OOaoh0mckAATXP3eIbhUMQnSn9HN9ZU6Zx03A0u8rHgdDTnMdqdhPSBAXTXC4RfuXqpQVgF94HCH6RLiVMbx7qMLXO76hNAcLyuO+qrnTjLKAy2sCxugACvytm1+6VsqTqodByRxSEaUgV+aJhSQBKDCLt65wiiEWoQP2lY2lQ/T9h1AaLGlkcZ76H6ba7dKzslhPLEmhjFsumviWzj5sMv51t0lIGdEHdHk4eOls4yOFUrojO19inXt0Ri5BYzM4glwByxRFkz7exRXvfza/8eteg9btRpHDX05Ykwm5F81dFy4DW1BCz8ZEwxker2dq2+djE26C82PWAbxPA8EdhO9YDi6hsYJMrcdgTla+7KMrR1JROEkvuyEQ7vPAcHZrlBwgzENqlRh2no+RCSjum4V8ms258y/WndpGNP3dS//HSbR06HcSdVINzL7ebisr3mtSWGGgdfmYDww+W1b4aOFugB3Z6SsmEh3h357uX8s511sgUOzrFU00m27IYxDpSfZZ+bfyVA4N5VRaQfYQpt/kgkqeiS70gfH4la737pAWHT3BzFw+i4YPNn0b80o32PUtpxp3A7BtkcC6JtqSHaoziqnhuvnzuaG9HXiSfXS9QrYSjY6qUxs4ggujKpkaic8cnuXSYhHymBOxGwotdOMQW1aaWLoNc99cbwxwpgtSjrJlUI7mjoijXnPx8T/GCg/w3dqZM4XzHQ==|920

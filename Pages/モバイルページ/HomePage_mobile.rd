@@ -1,0 +1,31 @@
+{
+  "PageType": 0,
+  "ColumnCount": 18,
+  "RowCount": 34,
+  "Formulas": {
+    "1,6": "TODAY()",
+    "5,1": "ODATA(\"BentoOrder?$select=BentoID&$filter=OrderDate eq \"&IF(ISBLANK(G2),\"null\",TEXT(G2,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and OrderPerson eq \"&IF(ISBLANK(G3),\"null\",\"'\"&G3&\"'\"))",
+    "28,9": "IFERROR(ODATA(\"Bento?$select=BentoName&$filter=ID eq \"&IF(ISBLANK(I29),\"null\",I29)),\"なし\")",
+    "26,8": "ODATA(\"BentoOrder?$select=BentoID&$filter=OrderDate eq \"&IF(ISBLANK(C27),\"null\",TEXT(C27,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and OrderPerson eq \"&IF(ISBLANK(G3),\"null\",\"'\"&G3&\"'\"))",
+    "9,1": "IFERROR(ODATA(\"Bento?$select=BentoName&$filter=ID eq \"&IF(ISBLANK(B6),\"null\",B6)),\"なし\")",
+    "24,9": "IFERROR(ODATA(\"Bento?$select=BentoName&$filter=ID eq \"&IF(ISBLANK(I25),\"null\",I25)),\"なし\")",
+    "26,2": "G2+6",
+    "28,2": "G2+7",
+    "26,9": "IFERROR(ODATA(\"Bento?$select=BentoName&$filter=ID eq \"&IF(ISBLANK(I27),\"null\",I27)),\"なし\")",
+    "24,2": "G2+5",
+    "24,8": "ODATA(\"BentoOrder?$select=BentoID&$filter=OrderDate eq \"&IF(ISBLANK(C25),\"null\",TEXT(C25,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and OrderPerson eq \"&IF(ISBLANK(G3),\"null\",\"'\"&G3&\"'\"))",
+    "22,8": "ODATA(\"BentoOrder?$select=BentoID&$filter=OrderDate eq \"&IF(ISBLANK(C23),\"null\",TEXT(C23,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and OrderPerson eq \"&IF(ISBLANK(G3),\"null\",\"'\"&G3&\"'\"))",
+    "18,2": "G2+2",
+    "22,9": "IFERROR(ODATA(\"Bento?$select=BentoName&$filter=ID eq \"&IF(ISBLANK(I23),\"null\",I23)),\"なし\")",
+    "20,8": "ODATA(\"BentoOrder?$select=BentoID&$filter=OrderDate eq \"&IF(ISBLANK(C21),\"null\",TEXT(C21,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and OrderPerson eq \"&IF(ISBLANK(G3),\"null\",\"'\"&G3&\"'\"))",
+    "18,9": "IFERROR(ODATA(\"Bento?$select=BentoName&$filter=ID eq \"&IF(ISBLANK(I19),\"null\",I19)),\"なし\")",
+    "18,8": "ODATA(\"BentoOrder?$select=BentoID&$filter=OrderDate eq \"&IF(ISBLANK(C19),\"null\",TEXT(C19,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and OrderPerson eq \"&IF(ISBLANK(G3),\"null\",\"'\"&G3&\"'\"))",
+    "20,2": "G2+3",
+    "20,9": "IFERROR(ODATA(\"Bento?$select=BentoName&$filter=ID eq \"&IF(ISBLANK(I21),\"null\",I21)),\"なし\")",
+    "22,2": "G2+4",
+    "16,2": "G2+1",
+    "16,9": "IFERROR(ODATA(\"Bento?$select=BentoName&$filter=ID eq \"&IF(ISBLANK(I17),\"null\",I17)),\"なし\")",
+    "16,8": "ODATA(\"BentoOrder?$select=BentoID&$filter=OrderDate eq \"&IF(ISBLANK(C17),\"null\",TEXT(C17,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and OrderPerson eq \"&IF(ISBLANK(G3),\"null\",\"'\"&G3&\"'\"))",
+    "28,8": "ODATA(\"BentoOrder?$select=BentoID&$filter=OrderDate eq \"&IF(ISBLANK(C29),\"null\",TEXT(C29,\"yyyy-MM-ddThh:mm:ssZ\"))&\" and OrderPerson eq \"&IF(ISBLANK(G3),\"null\",\"'\"&G3&\"'\"))"
+  }
+}
