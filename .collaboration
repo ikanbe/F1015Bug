@@ -275,14 +275,7 @@
   },
   {
     "ModuleName": "Plugin",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Kanbe",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-19T16:54:44.0803762+09:00",
-    "ModuleType": 40,
-    "ToRemoveFiles": []
+    "ModuleType": 40
   },
   {
     "ModuleName": "PublishSetting",
