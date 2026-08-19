@@ -1,92 +1,32 @@
 [
   {
     "ModuleName": "TableView/MyBentoListView",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Kanbe",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-19T16:51:21.1636192+09:00",
     "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\MyBentoListView.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/BentoOrderSum",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Kanbe",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-19T16:51:21.1636314+09:00",
     "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\BentoOrderSum.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Calendar",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Kanbe",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-19T16:51:21.1636334+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Calendar.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/Bento",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Kanbe",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-19T16:51:21.1636346+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\Bento.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "TableView/ユーザー情報ビュー",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Kanbe",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-19T16:51:21.1636364+09:00",
     "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\ユーザー情報ビュー.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/BentoOrder",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Kanbe",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-19T16:51:21.1636377+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\BentoOrder.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -111,17 +51,7 @@
   },
   {
     "ModuleName": "PCPage/HomePage",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Kanbe",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-19T16:51:00.6429949+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\PCページ\\HomePage.json",
-      "Pages\\PCページ\\HomePage.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/AdminMenu",
@@ -350,15 +280,5 @@
   {
     "ModuleName": "PublishSetting",
     "ModuleType": 41
-  },
-  {
-    "ModuleName": "ServerCommand/サーバーサイドコマンド1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Kanbe",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-19T16:52:20.4328766+09:00",
-    "ModuleType": 15
   }
 ]
