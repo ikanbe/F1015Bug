@@ -51,7 +51,17 @@
   },
   {
     "ModuleName": "PCPage/HomePage",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Kanbe",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-08-19T16:51:00.6429949+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\PCページ\\HomePage.json",
+      "Pages\\PCページ\\HomePage.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/AdminMenu",
